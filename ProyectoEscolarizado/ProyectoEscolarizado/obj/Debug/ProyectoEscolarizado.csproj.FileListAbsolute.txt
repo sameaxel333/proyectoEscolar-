@@ -20,3 +20,25 @@ C:\Users\Samea\OneDrive\Documents\Desktop\Practica1\ProyectoEscolarizado\Proyect
 C:\Users\Samea\OneDrive\Documents\Desktop\Practica1\ProyectoEscolarizado\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.csproj.CoreCompileInputs.cache
 C:\Users\Samea\OneDrive\Documents\Desktop\Practica1\ProyectoEscolarizado\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.exe
 C:\Users\Samea\OneDrive\Documents\Desktop\Practica1\ProyectoEscolarizado\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.pdb
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\bin\Debug\ProyectoEscolarizado.exe.config
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\bin\Debug\ProyectoEscolarizado.exe
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\bin\Debug\ProyectoEscolarizado.pdb
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.csproj.AssemblyReference.cache
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\MainWindow.g.cs
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\View\Inscripciones .g.cs
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\View\LoginView.g.cs
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\App.g.cs
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado_MarkupCompile.cache
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado_MarkupCompile.lref
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\MainWindow.baml
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\View\Inscripciones .baml
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\View\LoginView.baml
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.g.resources
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.Properties.Resources.resources
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.csproj.GenerateResource.cache
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.csproj.CoreCompileInputs.cache
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.exe
+C:\Users\Samea\OneDrive\Documents\Desktop\ProyectoEscolarizado\proyectoEscolar-\ProyectoEscolarizado\ProyectoEscolarizado\obj\Debug\ProyectoEscolarizado.pdb
