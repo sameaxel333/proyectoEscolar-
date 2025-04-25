@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|c:\\users\\samea\\onedrive\\documents\\desktop\\proyectoescolarizado\\proyectoescolarizado\\proyectoescolarizado\\repositotires\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\repositotires\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\view\\inscripciones .xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\view\\inscripciones .xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\repositotires\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\repositotires\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\view\\inscripciones .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\view\\inscripciones .xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\proyectoescolarizado\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEC1141A-97D1-4A56-8BCA-909CBEBFBB44}|ProyectoEscolarizado\\ProyectoEscolarizado.csproj|solutionrelative:proyectoescolarizado\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Repositotires\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\Repositotires\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Repositotires\\UserRepository.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\Repositotires\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:02:50.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Inscripciones .xaml",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\Inscripciones .xaml",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\View\\Inscripciones .xaml",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\Inscripciones .xaml",
+              "RelativeToolTip": "ProyectoEscolarizado\\View\\Inscripciones .xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-09T16:49:00.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\ViewModel\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\ViewModel\\ViewModelBase.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\ViewModel\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:25:46.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowF0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:41:30.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewModelCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\ViewModel\\ViewModelCommand.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\ViewModel\\ViewModelCommand.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\ViewModel\\ViewModelCommand.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\ViewModel\\ViewModelCommand.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwC0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T17:33:24.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Inscripciones .xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\Inscripciones .xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\View\\Inscripciones .xaml.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\Inscripciones .xaml.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\View\\Inscripciones .xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T16:16:43.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Repositotires\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\Repositotires\\RepositoryBase.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Repositotires\\RepositoryBase.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\Repositotires\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T17:04:41.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\LoginView.xaml",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\View\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\LoginView.xaml",
+              "RelativeToolTip": "ProyectoEscolarizado\\View\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-07T17:47:02.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\View\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:45:38.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Model\\UserModel.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\Model\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:29:50.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Model\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ProyectoEscolarizado\\Model\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Samea\\OneDrive\\Documents\\Desktop\\ProyectoEscolarizado\\ProyectoEscolarizado\\ProyectoEscolarizado\\Model\\IUserRepository.cs",
+              "RelativeToolTip": "ProyectoEscolarizado\\Model\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T16:35:04.302Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

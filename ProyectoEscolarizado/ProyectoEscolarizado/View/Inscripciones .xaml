@@ -1,0 +1,257 @@
+﻿<Window x:Class="ProyectoEscolarizado.View.Inscripciones"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectoEscolarizado.View"
+        xmlns:customcontrols="clr-namespace:ProyectoEscolarizado.CustomControls"
+        mc:Ignorable="d"
+        Title="Inscripciones" Height="550" Width="900"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True">
+    <Border CornerRadius="12">
+
+        <Border CornerRadius="10" BorderThickness="2" Opacity="0.95">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#462AD8" Offset="0"/>
+                    <GradientStop Color="#DA34" Offset="0.75"/>
+                    <GradientStop Color="#8A1A34" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#060531" Offset="0"/>
+                    <GradientStop Color="#DA34" Offset="0.35"/>
+                    <GradientStop Color="#8A1A34" Offset="0.75"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition />
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="25"/>
+                        <ColumnDefinition Width="5"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="FORMULARIO DE INSCRIPCION"
+                               Foreground="White"
+                               FontSize="15"
+                               FontFamily="Monserrat"
+                               Grid.Column="0"
+                               VerticalAlignment="Center"
+                               Margin="10,0,0,0"/>
+
+                    <Button x:Name="btnMinimizar"
+                            BorderThickness="0"
+                            Content="-"
+                            Foreground="White"
+                            FontSize="16"
+                            FontFamily="Montserrat"
+                            Cursor="Hand"
+                            Grid.Column="1"
+                            Click="btnMinimizar_Click">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#28AEED" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#278BEF"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="18" Height="18" CornerRadius="9"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                      HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+
+                    <Button x:Name="btnCerrar"
+                            BorderThickness="0"
+                            Content="X"
+                            Foreground="White"
+                            FontSize="14"
+                            FontFamily="Montserrat"
+                            Cursor="Hand"
+                            Grid.Column="2">
+                        <Button.Style>
+                            <Style TargetType="Button">
+                                <Setter Property="Background" Value="#ED2828" />
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#EF2727"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="Button">
+                                <Border Width="18" Height="18" CornerRadius="9"
+                                        Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                                                    HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
+                </Grid>
+
+                <Grid Grid.Row="1" Margin="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="250"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <!-- Left side with logo/info -->
+                    <StackPanel Grid.Column="0"
+                                Orientation="Vertical"
+                                VerticalAlignment="Top">
+                        <Image Source="/Images/inscription.png"
+                               Width="100"
+                               Height="100"
+                               HorizontalAlignment="Center"/>
+                        <TextBlock Text="Inscripciones"
+                                   Foreground="Wheat"
+                                   FontSize="30"
+                                   FontWeight="Medium"
+                                   FontFamily="Montserrat"
+                                   HorizontalAlignment="Center"
+                                   Margin="0,10,0,0"/>
+                        <TextBlock Text="Formulario de Inscripción"
+                                   Foreground="LightBlue"
+                                   FontSize="20"
+                                   FontWeight="Medium"
+                                   FontFamily="Montserrat"
+                                   TextAlignment="Center"
+                                   Margin="0,5,0,20"/>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Margin="20,0,0,0">
+                 
+                        <TextBlock Text="Nombre(s)"
+                                   Foreground="LightGray"
+                                   FontWeight="Medium"
+       
+                                   FontFamily="Montserrat"
+                                   Margin="0,5,0,0"
+                                   Width="300
+"/>
+                        <TextBox x:Name="txtNombre"
+                                 FontFamily="Montserrat"
+                                 FontSize="13"
+                                 FontWeight="Medium"
+                                 CaretBrush="LightGray"
+                                 BorderBrush="DarkGray"
+                                 BorderThickness="0,0,0,2"
+                                 Height="28"
+                                 VerticalContentAlignment="Bottom"
+                                 Padding="10,0,0,0" Width="300" TextChanged="txtNombre_TextChanged_1"/>
+
+                   
+                        <TextBlock Text="Apellidos"
+                                   Foreground="LightGray"
+                                   FontWeight="Medium"
+                                   FontFamily="Montserrat"
+                                   Margin="0,5,0,0"
+                                   Width="300"/>
+                        <TextBox x:Name="txtApellidos"
+                                 FontFamily="Montserrat"
+                                 FontSize="13"
+                                 FontWeight="Medium"
+                                 Foreground="White"
+                                 CaretBrush="LightGray"
+                                 BorderBrush="DarkGray"
+                                 BorderThickness="0,0,0,2"
+                                 Height="28"
+                                 VerticalContentAlignment="Center"
+                                 Margin="0,5,0,10"
+                                 Padding="5,0,0,0"
+                                 Width="300"/>
+
+       
+              
+                        <TextBlock Text="CURP"
+                                   Foreground="LightGray"
+                                   FontWeight="Medium"
+                                   FontFamily="Montserrat"
+                                   Margin="0,5,0,0"
+                                   Width="300"/>
+                        <TextBox x:Name="txtCurp"
+                                 FontFamily="Montserrat"
+                                 FontSize="13"
+                                 FontWeight="Medium"
+                                 Foreground="White"
+                                 CaretBrush="LightGray"
+                                 BorderBrush="DarkGray"
+                                 BorderThickness="0,0,0,2"
+                                 Height="28"
+                                 VerticalContentAlignment="Center"
+                                 Margin="0,5,0,10"
+                                 Padding="5,0,0,0"
+                                 MaxLength="18"
+                                 CharacterCasing="Upper"
+                                 Width="300"/>
+
+                      
+                        <TextBlock Text="Dirección"
+                                   Foreground="LightGray"
+                                   FontWeight="Medium"
+                                   FontFamily="Montserrat"
+                                   Margin="0,5,0,0"
+                                   Width="300"/>
+                        <TextBox x:Name="txtDireccion"
+                                 FontFamily="Montserrat"
+                                 FontSize="13"
+                                 FontWeight="Medium"
+                                 Foreground="White"
+                                 CaretBrush="LightGray"
+                                 BorderBrush="DarkGray"
+                                 BorderThickness="0,0,0,2"
+                                 Height="28"
+                                 VerticalContentAlignment="Center"
+                                 Margin="0,5,0,20"
+                                 Padding="5,0,0,0"
+                                 Width="300"/>
+
+                        <!-- Submit Button -->
+                        <Button x:Name="btnEnviarSolicitud"
+                                Content="Enviar Solicitud"
+                                FontFamily="Montserrat"
+                                FontSize="14"
+                                FontWeight="Bold"
+                                Foreground="White"
+                                Background="#462AD8"
+                                BorderThickness="0"
+                                Height="35"
+                                Margin="0,20,0,0"
+                                Cursor="Hand"
+                                Width="400">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Background" Value="#462AD8" />
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#5A3AE8"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Border>
+    </Border>
+</Window>
