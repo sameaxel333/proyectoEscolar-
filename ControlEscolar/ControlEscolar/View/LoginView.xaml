@@ -27,10 +27,8 @@
     </Window.Visibility>
 
     <Border CornerRadius="12">
-        <Border.Background>
-            <ImageBrush ImageSource="/Images/imagen.png" Stretch="None"/>
-        </Border.Background>
-        <Border CornerRadius="10" BorderThickness="2" Opacity="0.98">
+        
+        <Border CornerRadius="10" BorderThickness="2" Opacity="0.98" Margin="0,14,0,-14">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#462AD8" Offset="0"/>
@@ -81,7 +79,7 @@
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border Width="18" Height="18" CornerRadius="9"
-                                     Background="{TemplateBinding Background}">
+                                     Background="{TemplateBinding Background}" Margin="4,8,3,4">
                                     <ContentPresenter VerticalAlignment="Center"
                                   HorizontalAlignment="Center"/>
                                 </Border>
@@ -134,6 +132,7 @@
                             TextWrapping="Wrap"
                             TextAlignment="Left"
                             Margin="0,5,0,50" Height="14" Width="294"/>
+                    
                     <TextBlock Text="Inicio de Sesión"
                             Foreground="White"
                             FontSize="14"
@@ -214,13 +213,17 @@
                     </Button>
 
                 </StackPanel>
+                <Image Margin="251,-10,-444,-859" Source="/logoUAZ_traslucido.png" Stretch="Fill"/>
                 <StackPanel
                     Orientation="Vertical"
                     Margin="484,40,98,-324">
                     <Image Source="/Images/UAZlogo.png"
                         Width="217"
-                        Height="303"/>
+                        Height="344"/>
                 </StackPanel>
+                <Image Margin="417,-29,31,-153" Source="/nombre_institucion.png" Stretch="Fill"/>
+
+
 
             </Grid>
 

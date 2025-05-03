@@ -125,22 +125,14 @@
                 </StackPanel>
                 <StackPanel
                     Orientation="Vertical"
-                    Margin="398,35,10,-392">
+                    Margin="370,39,38,-396">
                     <TextBlock Foreground="LightCyan"
            FontSize="16"
            FontWeight="Medium"
            FontFamily="Montserrat"
            TextWrapping="Wrap"
            TextAlignment="Right"
-           Margin="0,5,0,50" Height="21" Width="388">
-            <Hyperlink Click="Inscripciones_Click">Inscripciones</Hyperlink>
-            <Run Text="    " />
-            <Hyperlink Click="Pagos_Click">Pagos</Hyperlink>
-            <Run Text="    " />
-            <Run Text="Kárdex" />
-            <Run Text="    " />
-            <Run Text="Configuración" />
-                            </TextBlock>
+           Height="21" Width="381" RenderTransformOrigin="0.5,0.495"><Hyperlink Click="Inscripciones_Click"><Run Text="Inscripciones"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Hyperlink Click="Pagos_Click"><Run Text="Pagos"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Run Text="Kárdex" /><Run Text=" "/><Run Text="    " /><Run Text=" "/><Run Text="Configuración" /></TextBlock>
 
 
                 </StackPanel>
@@ -148,14 +140,14 @@
                 <StackPanel
                     Orientation="Vertical"
                     Margin="44,100,44,-406">
-                    <TextBlock Text="¿Porque deberías estudiar en nuestra Institución?"
+                    <TextBlock
                         Foreground="White"
                         FontSize="35"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
                         TextWrapping="Wrap"
                         TextAlignment="Center"
-                        Height="106" Width="704"/>
+                        Height="106" Width="704"><Run Language="es-mx" Text="Bienvenido"/></TextBlock>
                     <TextBlock Text="Nuestra institución pertenece a la mejor universidad dentro del estado, con más de 40,000 estudiantes, más de 8,000 maestros y una ampliavariedad de carreras. Gran nivel académico con oportunidades laborales.                                   ¡Inscribete!"
                           Foreground="White"
                           FontSize="16"

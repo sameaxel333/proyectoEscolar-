@@ -147,5 +147,11 @@
   <ItemGroup>
     <Resource Include="Images\signo-de-dolares.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\logoUAZ_traslucido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\nombre_institucion.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

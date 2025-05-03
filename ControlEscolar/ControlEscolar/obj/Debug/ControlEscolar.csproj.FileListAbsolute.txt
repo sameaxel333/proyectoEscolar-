@@ -22,3 +22,27 @@ C:\Users\varel\source\repos\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\
 C:\Users\varel\source\repos\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\RegistrationView.baml
 C:\Users\varel\source\repos\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\PaymentView.g.cs
 C:\Users\varel\source\repos\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\PaymentView.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.AssemblyReference.cache
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MainWindow.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\PaymentView.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\RegistrationView.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\LoginView.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\App.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar_MarkupCompile.cache
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar_MarkupCompile.lref
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MainWindow.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\PaymentView.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\RegistrationView.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\LoginView.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.g.resources
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
