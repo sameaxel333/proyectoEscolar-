@@ -9,7 +9,7 @@ namespace ControlEscolar.Model
 {
     public interface IUserRepository
     {
-        bool AuthenticateUser(NetworkCredential credential);
+        bool AuthenticateUser(string username, byte[] passwordHash);
         void Add(UserModel userModel);
         void Edit(UserModel userModel);
         void Remove(int id);

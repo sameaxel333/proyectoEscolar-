@@ -147,15 +147,15 @@
                         FontFamily="Montserrat"
                         TextWrapping="Wrap"
                         TextAlignment="Center"
-                        Height="106" Width="704"><Run Language="es-mx" Text="Bienvenido"/></TextBlock>
-                    <TextBlock Text="Nuestra institución pertenece a la mejor universidad dentro del estado, con más de 40,000 estudiantes, más de 8,000 maestros y una ampliavariedad de carreras. Gran nivel académico con oportunidades laborales.                                   ¡Inscribete!"
+                        Height="106" Width="704"><Run Text="Bienvenido"/><Run Language="es-mx" Text=" nombre_usuario"/></TextBlock>
+                    <TextBlock
                           Foreground="White"
                           FontSize="16"
                           FontWeight="Medium"
                           FontFamily="Montserrat"
                           TextWrapping="Wrap"
                           TextAlignment="Left"
-                          Margin="0,5,0,50" Height="127" Width="704"/>
+                          Margin="0,5,0,50" Height="127" Width="704"><Run Text="Tu Información General :"/><LineBreak/><Run Text="- Promedio General"/><LineBreak/><Run Text="- Materias Aprobadas"/><LineBreak/><Run Text="- Materias Reprobadas"/></TextBlock>
                     <TextBlock 
                         Background="White" RenderTransformOrigin="0.5,-4.057" Height="3"
                         Margin="0,0,0,10"/>

@@ -8,9 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/icon.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/imagen.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/key-icon.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/user-icon.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/newfile1.txt")]
 
 

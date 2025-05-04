@@ -31,16 +31,16 @@
         <Border CornerRadius="10" BorderThickness="2" Opacity="0.98" Margin="0,14,0,-14">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-                    <GradientStop Color="#462AD8" Offset="0"/>
-                    <GradientStop Color="#DA34AE" Offset="0.75"/>
-                    <GradientStop Color="#8A16C1" Offset="1"/>
+                    <GradientStop Color="#2e2e2e" Offset="0"/>
+                    <GradientStop Color="#dadada" Offset="0.75"/>
+                    <GradientStop Color="#2e2e2e" Offset="1"/>
                 </LinearGradientBrush>
             </Border.BorderBrush>
             <Border.Background>
                 <LinearGradientBrush StartPoint="0.1,0" EndPoint="1,1">
                     <GradientStop Color="#060521" Offset="0"/>
                     <GradientStop Color="LightBlue" Offset="0.75"/>
-                    <GradientStop Color="AliceBlue" Offset="1"/>
+                    <GradientStop Color="#060521" Offset="1"/>
                 </LinearGradientBrush>
             </Border.Background>
 
@@ -193,7 +193,7 @@
                          Margin="0 30 0 0" Click="btnLogin_Click">
                         <Button.Style>
                             <Style TargetType="Button">
-                                <Setter Property="Background" Value="#462AD8"/>
+                                <Setter Property="Background" Value="#003757"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
                                         <Setter Property="Background" Value="#28AEED"/>
@@ -213,7 +213,7 @@
                     </Button>
 
                 </StackPanel>
-                <Image Margin="251,-10,-444,-859" Source="/logoUAZ_traslucido.png" Stretch="Fill"/>
+                <Image Margin="251,15,-414,-859" Source="/images/logoUAZ_traslucido.png" Stretch="Fill"/>
                 <StackPanel
                     Orientation="Vertical"
                     Margin="484,40,98,-324">
@@ -221,7 +221,7 @@
                         Width="217"
                         Height="344"/>
                 </StackPanel>
-                <Image Margin="417,-29,31,-153" Source="/nombre_institucion.png" Stretch="Fill"/>
+                <Image Margin="376,-62,-10,-182" Source="/images/nombre_institucion.png" Stretch="Fill"/>
 
 
 

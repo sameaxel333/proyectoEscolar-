@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Security;
+using System.Security.Cryptography;
 using System.Security.Principal;
 using System.Text;
 using System.Threading;
@@ -85,7 +86,13 @@ namespace ControlEscolar.ViewModel
         }
         private void ExecuteLoginCommand(object obj)
         {
-            var isValidUser = userRepository.AuthenticateUser(new NetworkCredential(Username, Password));
+            string plainPassword = ConvertToUnsecureString(Password); // Convierte SecureString a string
+            byte[] passwordHash = SHA256.Create().ComputeHash(Encoding.GetEncoding(28591).GetBytes(plainPassword));
+            Console.WriteLine("Nuevo Hash en C#: " + BitConverter.ToString(passwordHash).Replace("-", ""));
+
+
+            //Depuracion a eliminar
+            var isValidUser = userRepository.AuthenticateUser(Username, passwordHash);
             if (isValidUser)
             {
                 Thread.CurrentPrincipal = new GenericPrincipal(
@@ -97,5 +104,21 @@ namespace ControlEscolar.ViewModel
                 ErrorMessage = "* Invalid username or password";
             }
         }
+        private string ConvertToUnsecureString(SecureString secureString)
+        {
+            if (secureString == null)
+                return string.Empty;
+
+            IntPtr unmanagedString = System.Runtime.InteropServices.Marshal.SecureStringToGlobalAllocUnicode(secureString);
+            try
+            {
+                return System.Runtime.InteropServices.Marshal.PtrToStringUni(unmanagedString);
+            }
+            finally
+            {
+                System.Runtime.InteropServices.Marshal.ZeroFreeGlobalAllocUnicode(unmanagedString);
+            }
+        }
+
     }
 }

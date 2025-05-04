@@ -19,21 +19,26 @@ namespace ControlEscolar.Repositories
             throw new NotImplementedException();
         }
 
-        public bool AuthenticateUser(NetworkCredential credential)
+        public bool AuthenticateUser(string username, byte[] passwordHash)
         {
-            bool validUser;
             using (var connection = GetConnection())
             using (var command = new SqlCommand())
             {
                 connection.Open();
                 command.Connection = connection;
-                command.CommandText = "select * from [User] where username = @username and [password] = @password";
-                command.Parameters.Add("@username", System.Data.SqlDbType.NVarChar).Value = credential.UserName;
-                command.Parameters.Add("@password", System.Data.SqlDbType.NVarChar).Value = credential.Password;
-                validUser = command.ExecuteScalar() == null ? false : true;
+
+                command.CommandText = @"SELECT COUNT(*) FROM Estudiantes 
+                                WHERE CURP = @CURP AND Contraseña = @password";
+
+                command.Parameters.Add("@CURP", System.Data.SqlDbType.NVarChar).Value = username;
+                command.Parameters.Add("@password", System.Data.SqlDbType.VarBinary).Value = passwordHash;
+
+                return (int)command.ExecuteScalar() > 0;
             }
-            return validUser;
         }
+
+
+
         public void Edit(UserModel userModel)
         {
             throw new NotImplementedException();
