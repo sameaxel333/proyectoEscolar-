@@ -132,7 +132,7 @@
            FontFamily="Montserrat"
            TextWrapping="Wrap"
            TextAlignment="Right"
-           Height="21" Width="381" RenderTransformOrigin="0.5,0.495"><Hyperlink Click="Inscripciones_Click"><Run Text="Inscripciones"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Hyperlink Click="Pagos_Click"><Run Text="Pagos"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Run Text="Kárdex" /><Run Text=" "/><Run Text="    " /><Run Text=" "/><Run Text="Configuración" /></TextBlock>
+           Height="21" Width="371" RenderTransformOrigin="0.5,0.495"><Hyperlink Click="Inscripciones_Click"><Run Text="Inscripciones"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Hyperlink Click="Pagos_Click"><Run Text="Pagos"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Hyperlink Click="Materias_Click"><Run Text="Kárdex" /></Hyperlink><Run Text=" " Cursor=""/><Run Text="    " /><Run Text=" "/><Run Text="Configuración" /></TextBlock>
 
 
                 </StackPanel>

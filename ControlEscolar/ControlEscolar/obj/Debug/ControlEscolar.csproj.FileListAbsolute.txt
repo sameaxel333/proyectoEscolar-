@@ -48,3 +48,9 @@ C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\Control
 C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
 C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\UserRoleSelection.baml
 C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\UserRoleSelection.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\ContactView.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\ContactView.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\SignUpView.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\SignUpView.baml
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\CreacMaterias.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\CreacMaterias.baml

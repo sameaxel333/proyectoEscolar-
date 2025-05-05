@@ -1,6 +1,9 @@
-﻿using System;
+﻿using ProyectoEscolarizado.View;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -17,10 +20,14 @@ namespace ControlEscolar.View
     /// <summary>
     /// Lógica de interacción para LoginView.xaml
     /// </summary>
+    /// 
+    
     public partial class LoginView : Window 
     {
-        public LoginView()
+        private string userRole;
+        public LoginView(string role)
         {
+            userRole = App.UserRole;
             InitializeComponent();
         }
 
@@ -41,7 +48,28 @@ namespace ControlEscolar.View
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-
+            
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            UserRoleSelection ventana = new UserRoleSelection();
+            ventana.Show();
+            this.Close();
+        }
+        private void AbrirSignUpView(object sender, RoutedEventArgs e)
+        {
+            SignUpView ventana = new SignUpView();
+            ventana.Show();
+            this.Close();
+        }
+
+        private void AbrirContactView(object sender, RoutedEventArgs e)
+        {
+            ContactView ventana = new ContactView();
+            ventana.Show();
+            this.Close();
+        }
+
     }
 }

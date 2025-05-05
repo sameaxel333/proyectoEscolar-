@@ -315,7 +315,7 @@
                         VerticalContentAlignment="Center"
                         HorizontalAlignment="Left"
                         Margin="0,5,0,0"
-                        Padding="20,0,0,0" Width="399"
+                        Padding="20,0,0,0" Width="228"
                         Background="Transparent">
 
                     </TextBox>
@@ -345,7 +345,7 @@
                         VerticalContentAlignment="Center"
                         HorizontalAlignment="Left"
                         Margin="0,5,0,0"
-                        Padding="20,0,0,0" Width="681"
+                        Padding="20,0,0,0" Width="499"
                         Background="Transparent"/>
 
                 </StackPanel>

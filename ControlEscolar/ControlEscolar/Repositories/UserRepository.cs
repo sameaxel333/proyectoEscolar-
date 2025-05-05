@@ -19,7 +19,7 @@ namespace ControlEscolar.Repositories
             throw new NotImplementedException();
         }
 
-        public bool AuthenticateUser(string username, byte[] passwordHash)
+        public bool AuthenticateUser(string username, byte[] passwordHash, string userRole)
         {
             using (var connection = GetConnection())
             using (var command = new SqlCommand())
@@ -27,18 +27,15 @@ namespace ControlEscolar.Repositories
                 connection.Open();
                 command.Connection = connection;
 
-                command.CommandText = @"SELECT COUNT(*) FROM Estudiantes 
-                                WHERE CURP = @CURP AND Contraseña = @password";
+                Console.WriteLine($"Validando usuario en la tabla:" + userRole);
 
+                command.CommandText = $"SELECT COUNT(*) FROM [{userRole}] WHERE CURP = @CURP AND Contraseña = @password";
                 command.Parameters.Add("@CURP", System.Data.SqlDbType.NVarChar).Value = username;
                 command.Parameters.Add("@password", System.Data.SqlDbType.VarBinary).Value = passwordHash;
 
                 return (int)command.ExecuteScalar() > 0;
             }
         }
-
-
-
         public void Edit(UserModel userModel)
         {
             throw new NotImplementedException();

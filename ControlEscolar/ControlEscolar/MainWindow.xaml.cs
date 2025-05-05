@@ -47,6 +47,10 @@ namespace ControlEscolar
             ventana.Show();
             this.Close();
         }
-
+        private void Materias_Click(object sender, RoutedEventArgs e) {
+            CreacMaterias ventana = new CreacMaterias();
+            ventana.Show();
+            this.Close();
+        }
     }
 }

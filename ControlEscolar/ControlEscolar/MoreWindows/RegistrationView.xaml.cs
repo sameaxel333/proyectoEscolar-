@@ -54,6 +54,21 @@ namespace ControlEscolar.MoreWindows
             ventana.Show();
             this.Close();
         }
+        private void Materias_Click(object sender, RoutedEventArgs e)
+        {
+            CreacMaterias ventana = new CreacMaterias();
+            ventana.Show();
+            this.Close();
+        }
 
+        private void txtUser2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void txtUser1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

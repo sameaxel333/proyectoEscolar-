@@ -5,7 +5,9 @@ using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media.Imaging;
 using ControlEscolar.View;
+using ProyectoEscolarizado.View;
 
 namespace ControlEscolar
 {
@@ -14,18 +16,18 @@ namespace ControlEscolar
     /// </summary>
     public partial class App : Application
     {
+        public static string UserRole { get; set; } = string.Empty;
         private void Application_Startup(object sender, StartupEventArgs e)
         {
-            var loginView = new LoginView();
-            loginView.Show();
-            loginView.IsVisibleChanged += (s, ev) =>
+            var userRoleSelection = new UserRoleSelection();
+            userRoleSelection.Show();
+
+            userRoleSelection.Closed += (s, ev) =>
             {
-                if (loginView.IsVisible == false &&
-                loginView.IsLoaded)
+                if (!string.IsNullOrEmpty(App.UserRole) && Application.Current.Windows.OfType<LoginView>().Count() == 0)
                 {
-                    var mainView = new MainWindow();
-                    mainView.Show();
-                    loginView.Close();
+                    var loginView = new LoginView(App.UserRole);
+                    loginView.Show();
                 }
             };
         }

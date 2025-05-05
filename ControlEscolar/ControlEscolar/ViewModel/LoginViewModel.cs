@@ -88,22 +88,26 @@ namespace ControlEscolar.ViewModel
         {
             string plainPassword = ConvertToUnsecureString(Password); // Convierte SecureString a string
             byte[] passwordHash = SHA256.Create().ComputeHash(Encoding.GetEncoding(28591).GetBytes(plainPassword));
-            Console.WriteLine("Nuevo Hash en C#: " + BitConverter.ToString(passwordHash).Replace("-", ""));
-
-
-            //Depuracion a eliminar
-            var isValidUser = userRepository.AuthenticateUser(Username, passwordHash);
+          
+            var isValidUser = userRepository.AuthenticateUser(Username, passwordHash, App.UserRole);
             if (isValidUser)
             {
                 Thread.CurrentPrincipal = new GenericPrincipal(
                     new GenericIdentity(Username), null);
                 IsViewVisible = false;
+                OpenMainWindow();
             }
             else
             {
-                ErrorMessage = "* Invalid username or password";
+                ErrorMessage = "* Usuario o contraseña inválidos";
             }
         }
+        private void OpenMainWindow()
+        {
+            var mainWindow = new MainWindow();
+            mainWindow.Show();
+        }
+
         private string ConvertToUnsecureString(SecureString secureString)
         {
             if (secureString == null)
