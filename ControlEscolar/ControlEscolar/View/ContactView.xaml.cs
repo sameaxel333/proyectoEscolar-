@@ -49,5 +49,6 @@ namespace ControlEscolar.View
             ventana.Show();
             this.Close();
         }
+
     }
 }

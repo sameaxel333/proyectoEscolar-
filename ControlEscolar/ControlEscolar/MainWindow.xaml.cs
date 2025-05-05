@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ControlEscolar.MoreWindows;
+using ControlEscolar.View;
 
 namespace ControlEscolar
 {
@@ -49,6 +50,13 @@ namespace ControlEscolar
         }
         private void Materias_Click(object sender, RoutedEventArgs e) {
             CreacMaterias ventana = new CreacMaterias();
+            ventana.Show();
+            this.Close();
+        }
+
+        private void ContactClick(object sender, RoutedEventArgs e)
+        {
+            ContactViewMain ventana = new ContactViewMain();
             ventana.Show();
             this.Close();
         }

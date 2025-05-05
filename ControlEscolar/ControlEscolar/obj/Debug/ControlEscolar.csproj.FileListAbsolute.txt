@@ -54,3 +54,37 @@ C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\Control
 C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\SignUpView.baml
 C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\CreacMaterias.g.cs
 C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\CreacMaterias.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.AssemblyReference.cache
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\UserRoleSelection.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\CustomControls\BindablePasswordBox.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MainWindow.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\CreacMaterias.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\PaymentView.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\RegistrationView.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\ContactView.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\LoginView.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\SignUpView.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\UserRoleSelection.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\App.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar_MarkupCompile.cache
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar_MarkupCompile.lref
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\CustomControls\BindablePasswordBox.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MainWindow.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\CreacMaterias.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\PaymentView.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\MoreWindows\RegistrationView.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\ContactView.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\LoginView.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\SignUpView.baml
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.g.resources
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.pdb
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe.config
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.exe
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\bin\Debug\ControlEscolar.pdb
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.Properties.Resources.resources
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.GenerateResource.cache
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.csproj.CoreCompileInputs.cache
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\ControlEscolar.exe
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\ContactViewMain.g.cs
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\ContactViewMain.baml

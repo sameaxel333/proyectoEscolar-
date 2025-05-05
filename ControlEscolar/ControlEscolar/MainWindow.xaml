@@ -159,14 +159,28 @@
                     <TextBlock 
                         Background="White" RenderTransformOrigin="0.5,-4.057" Height="3"
                         Margin="0,0,0,10"/>
-                    <TextBlock Text="Contacto            Ubicación            Ayuda            Nuestra Institución            C 2025"
-                        Foreground="LightCyan"
+                    <TextBlock Foreground="LightCyan"
                         FontSize="16"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
                         TextWrapping="Wrap"
                         TextAlignment="Center"
-                        Margin="0,5,0,50" Height="39" Width="709"/>
+                        Margin="0,5,0,50" Height="39" Width="709">
+                        <TextBlock>
+    <Hyperlink Click="ContactClick">
+        <Run Text="Contacto"/>
+    </Hyperlink>
+    <Run Text=" "/>
+    <Run Text="Ubicación"/>
+    <Run Text=" "/>
+    <Run Text="Ayuda"/>
+    <Run Text=" "/>
+    <Run Text="Nuestra Institución"/>
+    <Run Text=" "/>
+    <Run Text="© 2025"/>
+</TextBlock>
+
+                        </TextBlock>
 
 
                 </StackPanel>

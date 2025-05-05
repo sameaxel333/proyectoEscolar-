@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\
 ControlEscolar
 none
 false
 DEBUG;TRACE
-C:\Trabajos\Programacion Visual puntoNet\proyectoEscolar-\ControlEscolar\ControlEscolar\App.xaml
-91044676955
+C:\WorkSpace\.NET\proyectoEscolar-\ControlEscolar\ControlEscolar\App.xaml
+10930087012
 
-21-128585450
+22665430845
 13-1310406943
-CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;MoreWindows\CreacMaterias.xaml;MoreWindows\PaymentView.xaml;MoreWindows\RegistrationView.xaml;View\ContactView.xaml;View\LoginView.xaml;View\SignUpView.xaml;View\UserRoleSelection.xaml;
+CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;MoreWindows\CreacMaterias.xaml;MoreWindows\PaymentView.xaml;MoreWindows\RegistrationView.xaml;View\ContactViewMain.xaml;View\ContactView.xaml;View\LoginView.xaml;View\SignUpView.xaml;View\UserRoleSelection.xaml;
 
 True
 
