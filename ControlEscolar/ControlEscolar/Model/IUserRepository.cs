@@ -15,5 +15,7 @@ namespace ControlEscolar.Model
         void Remove(int id);
         UserModel GetById(int id);
         UserModel GetByUsername(string username);
+        UserModel GetUserInfo(string curp);
     }
 }
+

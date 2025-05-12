@@ -41,9 +41,9 @@
 
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="30">
-                    </RowDefinition>
+                    <RowDefinition Height="30"/>
                 </Grid.RowDefinitions>
+
                 <Grid Grid.Row="0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
@@ -53,14 +53,14 @@
                     </Grid.ColumnDefinitions>
 
                     <Button x:Name="btnMinimizar"
-                    BorderThickness="0"
-                    Content="-"
-                    Foreground="White"
-                    FontSize="16"
-                    FontFamily="Monserrat"
-                    Cursor="Hand"
-                    Grid.Column="1"
-                    Click="btnMinimizar_Click">
+                            BorderThickness="0"
+                            Content="-"
+                            Foreground="White"
+                            FontSize="16"
+                            FontFamily="Monserrat"
+                            Cursor="Hand"
+                            Grid.Column="1"
+                            Click="btnMinimizar_Click">
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="#28AEED"/>
@@ -74,24 +74,25 @@
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border Width="18" Height="18" CornerRadius="9"
-                                    Background="{TemplateBinding Background}">
+                                        Background="{TemplateBinding Background}">
                                     <ContentPresenter VerticalAlignment="Center"
-                                 HorizontalAlignment="Center"/>
+                                                     HorizontalAlignment="Center"/>
                                 </Border>
-
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
 
                     <Button x:Name="btnCerrar"
-                    BorderThickness="0"
-                    Content="X"
-                    Foreground="White"
-                    FontSize="16"
-                    FontFamily="Monserrat"
-                    Cursor="Hand"
-                    Grid.Column="2"
-                    Click="btnCerrar_Click" Grid.ColumnSpan="2" Margin="2,0,2,0">
+                            BorderThickness="0"
+                            Content="X"
+                            Foreground="White"
+                            FontSize="16"
+                            FontFamily="Monserrat"
+                            Cursor="Hand"
+                            Grid.Column="2"
+                            Click="btnCerrar_Click" 
+                            Grid.ColumnSpan="2" 
+                            Margin="2,0,2,0">
                         <Button.Style>
                             <Style TargetType="Button">
                                 <Setter Property="Background" Value="Red"/>
@@ -105,60 +106,85 @@
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
                                 <Border Width="18" Height="18" CornerRadius="9"
-                        Background="{TemplateBinding Background}">
+                                        Background="{TemplateBinding Background}">
                                     <ContentPresenter VerticalAlignment="Center"
-                     HorizontalAlignment="Center"/>
+                                                     HorizontalAlignment="Center"/>
                                 </Border>
-
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
-
                 </Grid>
-                <StackPanel
-         Orientation="Vertical"
-         Margin="10,15,541,-70">
+
+                <StackPanel Orientation="Vertical" Margin="10,15,541,-70">
                     <Image Source="/Images/UAZe2logo.png"
-                    Width="217"
-                    Height="61"/>
-
+                           Width="217"
+                           Height="61"/>
                 </StackPanel>
-                <StackPanel
-                    Orientation="Vertical"
-                    Margin="370,39,38,-396">
+
+                <StackPanel Orientation="Vertical" Margin="370,39,38,-396">
                     <TextBlock Foreground="LightCyan"
-           FontSize="16"
-           FontWeight="Medium"
-           FontFamily="Montserrat"
-           TextWrapping="Wrap"
-           TextAlignment="Right"
-           Height="21" Width="371" RenderTransformOrigin="0.5,0.495"><Hyperlink Click="Inscripciones_Click"><Run Text="Inscripciones"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Hyperlink Click="Pagos_Click"><Run Text="Pagos"/></Hyperlink><Run Text=" "/><Run Text="    " /><Run Text=" "/><Hyperlink Click="Materias_Click"><Run Text="Kárdex" /></Hyperlink><Run Text=" " Cursor=""/><Run Text="    " /><Run Text=" "/><Run Text="Configuración" /></TextBlock>
-
-
+                               FontSize="16"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               TextWrapping="Wrap"
+                               TextAlignment="Right"
+                               Height="21" 
+                               Width="371" 
+                               RenderTransformOrigin="0.5,0.495">
+                        <Hyperlink Click="Inscripciones_Click">
+                            <Run Text="Inscripciones"/>
+                        </Hyperlink>
+                        <Run Text="    "/>
+                        <Hyperlink Click="Pagos_Click">
+                            <Run Text="Pagos"/>
+                        </Hyperlink>
+                        <Run Text="    "/>
+                        <Hyperlink Click="Materias_Click">
+                            <Run Text="Kárdex"/>
+                        </Hyperlink>
+                        <Run Text="    "/>
+                        <Run Text="Configuración"/>
+                    </TextBlock>
                 </StackPanel>
 
-                <StackPanel
-                    Orientation="Vertical"
-                    Margin="44,100,44,-406">
-                    <TextBlock
-                        Foreground="White"
-                        FontSize="35"
-                        FontWeight="Medium"
-                        FontFamily="Montserrat"
-                        TextWrapping="Wrap"
-                        TextAlignment="Center"
-                        Height="106" Width="704"><Run Text="Bienvenido"/><Run Language="es-mx" Text=" nombre_usuario"/></TextBlock>
-                    <TextBlock
-                          Foreground="White"
-                          FontSize="16"
-                          FontWeight="Medium"
-                          FontFamily="Montserrat"
-                          TextWrapping="Wrap"
-                          TextAlignment="Left"
-                          Margin="0,5,0,50" Height="127" Width="704"><Run Text="Tu Información General :"/><LineBreak/><Run Text="- Promedio General"/><LineBreak/><Run Text="- Materias Aprobadas"/><LineBreak/><Run Text="- Materias Reprobadas"/></TextBlock>
-                    <TextBlock 
-                        Background="White" RenderTransformOrigin="0.5,-4.057" Height="3"
-                        Margin="0,0,0,10"/>
+                <StackPanel Orientation="Vertical" Margin="44,100,44,-406">
+                    <TextBlock x:Name="txtBienvenida"
+                               Foreground="White"
+                               FontSize="35"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               Height="106" 
+                               Width="704">
+                        <Run Text="Bienvenido, "/>
+                        <Run Text="{Binding Name}" Foreground="#FF6EC9"/>
+
+                    </TextBlock>
+
+                    <TextBlock Foreground="White"
+                               FontSize="16"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               TextWrapping="Wrap"
+                               TextAlignment="Left"
+                               Margin="0,5,0,50" 
+                               Height="127" 
+                               Width="704">
+                        <Run Text="Tu Información General :"/>
+                        <LineBreak/>
+                        <Run Text="- Promedio General"/>
+                        <LineBreak/>
+                        <Run Text="- Materias Aprobadas"/>
+                        <LineBreak/>
+                        <Run Text="- Materias Reprobadas"/>
+                    </TextBlock>
+
+                    <TextBlock Background="White" 
+                               RenderTransformOrigin="0.5,-4.057" 
+                               Height="3"
+                               Margin="0,0,0,10"/>
+
                     <TextBlock Foreground="LightCyan"
                         FontSize="16"
                         FontWeight="Medium"
@@ -167,27 +193,28 @@
                         TextAlignment="Center"
                         Margin="0,5,0,50" Height="39" Width="709">
                         <TextBlock>
-    <Hyperlink Click="ContactClick">
-        <Run Text="Contacto"/>
-    </Hyperlink>
-    <Run Text=" "/>
-    <Run Text="Ubicación"/>
-    <Run Text=" "/>
-    <Run Text="Ayuda"/>
-    <Run Text=" "/>
-    <Run Text="Nuestra Institución"/>
-    <Run Text=" "/>
-    <Run Text="© 2025"/>
-</TextBlock>
-
+                            <Hyperlink Click="ContactClick">
+                                <Run Text="Contacto"/>
+                            </Hyperlink>
+                            <Run Text=" "/>
+                            <Hyperlink Click="UbicacionClick">
+                                <Run Text="Ubicación"/>
+                            </Hyperlink>
+                            <Run Text=" "/>
+                            <Hyperlink Click="PlanEstudiosClick">
+                                <Run Text="Plan de Estudios"/>
+                            </Hyperlink>
+                            <Run Text=" "/>
+                            <Hyperlink Click="InstitucionClick">
+                                <Run Text="Nuestra Institución"/>
+                            </Hyperlink>
+                        
+                            <Run Text=" "/>
+                            <Run Text="© 2025"/>
                         </TextBlock>
-
-
+                    </TextBlock>
                 </StackPanel>
-
             </Grid>
         </Border>
-
     </Border>
-
 </Window>

@@ -1,133 +1,169 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\",
+  "WorkspaceRootPath": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\view\\institucion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\institucion.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\workspace\\.net\\proyectoescolar-\\controlescolar\\controlescolar\\view\\contactviewmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactviewmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\workspace\\.net\\proyectoescolar-\\controlescolar\\controlescolar\\view\\contactviewmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactviewmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\contactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\workspace\\.net\\proyectoescolar-\\controlescolar\\controlescolar\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\signupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\signupview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\signupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\signupview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\userroleselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\userroleselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\userroleselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\userroleselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\creacmaterias.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\creacmaterias.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\creacmaterias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\creacmaterias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\paymentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\paymentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\paymentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\paymentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\images\\iconoestudiante.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\images\\iconoestudiante.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\images\\iconoadministrador.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\images\\iconoadministrador.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\resources\\logoaplicacionsomosuazmini.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\resources\\logoaplicacionsomosuazmini.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\controlescolar\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\view\\institucion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\institucion.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\contactviewmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactviewmain.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\contactviewmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactviewmain.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\view\\planestudios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\planestudios.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\view\\planestudios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\planestudios.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\morewindows\\adminregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\adminregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\morewindows\\adminregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\adminregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\morewindows\\studentregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\studentregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\morewindows\\studentregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\studentregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\morewindows\\teacherregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\teacherregister.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\morewindows\\teacherregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\teacherregister.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\view\\ubicacionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\ubicacionview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|c:\\trabajos\\programacion visual puntonet\\proyectoesc\\proyectoescolar-\\controlescolar\\controlescolar\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\creacmaterias.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\creacmaterias.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\repositories\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\model\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\contactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\contactview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\userroleselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\userroleselection.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\view\\userroleselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\view\\userroleselection.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\registrationview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\registrationview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\creacmaterias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\creacmaterias.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\paymentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\paymentview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\viewmodel\\viewmodelcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\morewindows\\paymentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\morewindows\\paymentview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\images\\iconoestudiante.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\images\\iconoestudiante.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\images\\iconoadministrador.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\images\\iconoadministrador.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\resources\\logoaplicacionsomosuazmini.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\resources\\logoaplicacionsomosuazmini.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\controlescolar\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2991B09D-4334-4803-AA53-CF9C6928DDE4}|ControlEscolar\\ControlEscolar.csproj|solutionrelative:controlescolar\\viewmodel\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -138,69 +174,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ContactViewMain.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactViewMain.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml",
-              "RelativeToolTip": "ControlEscolar\\View\\ContactViewMain.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T17:46:17.018Z",
+              "DocumentIndex": 0,
+              "Title": "Institucion.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\Institucion.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\Institucion.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\Institucion.xaml.cs*",
+              "RelativeToolTip": "ControlEscolar\\View\\Institucion.xaml.cs*",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T03:02:39.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ContactViewMain.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactViewMain.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml.cs",
-              "RelativeToolTip": "ControlEscolar\\View\\ContactViewMain.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA3wDYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T17:46:08.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ContactView.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactView.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml",
-              "RelativeToolTip": "ControlEscolar\\View\\ContactView.xaml",
+              "Title": "Institucion.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\Institucion.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\Institucion.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\Institucion.xaml",
+              "RelativeToolTip": "ControlEscolar\\View\\Institucion.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T00:43:26.085Z",
+              "WhenOpened": "2025-05-12T03:02:07.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "ControlEscolar\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwCEAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T03:03:41.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ControlEscolar\\MainWindow.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml",
               "RelativeToolTip": "ControlEscolar\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-04T01:58:03.581Z",
@@ -208,157 +215,261 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContactViewMain.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactViewMain.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml",
+              "RelativeToolTip": "ControlEscolar\\View\\ContactViewMain.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T17:46:17.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ContactViewMain.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactViewMain.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactViewMain.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\View\\ContactViewMain.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:46:08.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "ControlEscolar\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAuwGoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "ControlEscolar\\ViewModel",
+              "WhenOpened": "2025-05-04T01:47:21.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\View\\LoginView.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwDUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T02:09:16.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ControlEscolar\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MainWindow.xaml.cs",
               "RelativeToolTip": "ControlEscolar\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAA5wDoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwEoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T01:58:06.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\LoginView.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml.cs",
-              "RelativeToolTip": "ControlEscolar\\View\\LoginView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAWAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "PlanEstudios.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\PlanEstudios.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\PlanEstudios.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\PlanEstudios.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\View\\PlanEstudios.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAcwCEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T02:09:16.156Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "SignUpView.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\SignUpView.xaml",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\SignUpView.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\SignUpView.xaml",
-              "RelativeToolTip": "ControlEscolar\\View\\SignUpView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T05:53:35.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ContactView.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactView.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml.cs",
-              "RelativeToolTip": "ControlEscolar\\View\\ContactView.xaml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wDMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T00:45:42.882Z",
+              "WhenOpened": "2025-05-12T03:04:59.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RepositoryBase.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\RepositoryBase.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\Repositories\\RepositoryBase.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\RepositoryBase.cs",
-              "RelativeToolTip": "ControlEscolar\\Repositories\\RepositoryBase.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBEAAAA+AAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "PlanEstudios.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\PlanEstudios.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\PlanEstudios.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\PlanEstudios.xaml",
+              "RelativeToolTip": "ControlEscolar\\View\\PlanEstudios.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T03:04:39.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminRegister.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\AdminRegister.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\AdminRegister.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\AdminRegister.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\AdminRegister.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T03:04:32.405Z",
+              "WhenOpened": "2025-05-12T02:58:46.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminRegister.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\AdminRegister.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\AdminRegister.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\AdminRegister.xaml",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\AdminRegister.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T02:57:45.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "StudentRegister.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\StudentRegister.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\StudentRegister.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\StudentRegister.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\StudentRegister.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwEEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:56:59.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "StudentRegister.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\StudentRegister.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\StudentRegister.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\StudentRegister.xaml",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\StudentRegister.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T02:56:31.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "UserRoleSelection.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\UserRoleSelection.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml",
-              "RelativeToolTip": "ControlEscolar\\View\\UserRoleSelection.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-04T01:40:30.713Z"
+              "Title": "TeacherRegister.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\TeacherRegister.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\TeacherRegister.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\TeacherRegister.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\TeacherRegister.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA4wDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:55:49.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "UserRoleSelection.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\UserRoleSelection.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml.cs",
-              "RelativeToolTip": "ControlEscolar\\View\\UserRoleSelection.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T01:42:14.735Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "RegistrationView.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
-              "RelativeToolTip": "ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAswD0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T04:55:33.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegistrationView.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml",
-              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\RegistrationView.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml",
-              "RelativeToolTip": "ControlEscolar\\MoreWindows\\RegistrationView.xaml",
+              "Title": "TeacherRegister.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\TeacherRegister.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\TeacherRegister.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\TeacherRegister.xaml",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\TeacherRegister.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T04:54:51.536Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "SignUpView.g.i.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
-              "RelativeToolTip": "ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T05:58:48.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\Model\\IUserRepository.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\IUserRepository.cs",
-              "RelativeToolTip": "ControlEscolar\\Model\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T04:11:31.254Z",
+              "WhenOpened": "2025-05-12T02:55:29.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
+              "Title": "UbicacionView.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UbicacionView.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\UbicacionView.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UbicacionView.xaml",
+              "RelativeToolTip": "ControlEscolar\\View\\UbicacionView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-12T02:52:20.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\UserModel.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\UserModel.cs",
               "RelativeDocumentMoniker": "ControlEscolar\\Model\\UserModel.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\UserModel.cs",
               "RelativeToolTip": "ControlEscolar\\Model\\UserModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-04T04:12:54.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\Model\\IUserRepository.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Model\\IUserRepository.cs",
+              "RelativeToolTip": "ControlEscolar\\Model\\IUserRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T04:11:31.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\Repositories\\RepositoryBase.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\RepositoryBase.cs",
+              "RelativeToolTip": "ControlEscolar\\Repositories\\RepositoryBase.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T03:04:32.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CreacMaterias.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA5wEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T05:08:18.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "ControlEscolar\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T03:03:41.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml",
               "RelativeDocumentMoniker": "ControlEscolar\\View\\LoginView.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\LoginView.xaml",
               "RelativeToolTip": "ControlEscolar\\View\\LoginView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-04T01:43:43.124Z",
@@ -366,23 +477,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "SignUpView.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\SignUpView.xaml.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\View\\SignUpView.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\SignUpView.xaml.cs",
-              "RelativeToolTip": "ControlEscolar\\View\\SignUpView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T05:54:09.882Z"
+              "DocumentIndex": 25,
+              "Title": "UserRoleSelection.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\UserRoleSelection.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml",
+              "RelativeToolTip": "ControlEscolar\\View\\UserRoleSelection.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-04T01:40:30.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
+              "Title": "UserRoleSelection.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\UserRoleSelection.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\UserRoleSelection.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\View\\UserRoleSelection.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T01:42:14.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegistrationView.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\RegistrationView.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAswD0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T04:55:33.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RegistrationView.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\RegistrationView.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\RegistrationView.xaml",
+              "RelativeToolTip": "ControlEscolar\\MoreWindows\\RegistrationView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T04:54:51.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SignUpView.g.i.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
+              "RelativeToolTip": "ControlEscolar\\obj\\Debug\\View\\SignUpView.g.i.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T05:58:48.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ContactView.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactView.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml",
+              "RelativeToolTip": "ControlEscolar\\View\\ContactView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-05T00:43:26.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ContactView.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml.cs",
+              "RelativeDocumentMoniker": "ControlEscolar\\View\\ContactView.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\View\\ContactView.xaml.cs",
+              "RelativeToolTip": "ControlEscolar\\View\\ContactView.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA9wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T00:45:42.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "ViewModelCommand.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelCommand.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelCommand.cs",
               "RelativeDocumentMoniker": "ControlEscolar\\ViewModel\\ViewModelCommand.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelCommand.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelCommand.cs",
               "RelativeToolTip": "ControlEscolar\\ViewModel\\ViewModelCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,11 +573,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml.cs",
               "RelativeDocumentMoniker": "ControlEscolar\\App.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml.cs",
               "RelativeToolTip": "ControlEscolar\\App.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -402,45 +585,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "CreacMaterias.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
-              "RelativeToolTip": "ControlEscolar\\MoreWindows\\CreacMaterias.xaml.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAkwEEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T05:08:18.732Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "CreacMaterias.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml",
               "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\CreacMaterias.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\CreacMaterias.xaml",
               "RelativeToolTip": "ControlEscolar\\MoreWindows\\CreacMaterias.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T04:58:02.289Z"
+              "WhenOpened": "2025-05-05T04:58:02.289Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "PaymentView.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml",
               "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\PaymentView.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml",
               "RelativeToolTip": "ControlEscolar\\MoreWindows\\PaymentView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-05T01:28:32.503Z"
+              "WhenOpened": "2025-05-05T01:28:32.503Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "PaymentView.xaml.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml.cs",
               "RelativeDocumentMoniker": "ControlEscolar\\MoreWindows\\PaymentView.xaml.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\MoreWindows\\PaymentView.xaml.cs",
               "RelativeToolTip": "ControlEscolar\\MoreWindows\\PaymentView.xaml.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAwwDkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -448,11 +621,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 40,
               "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "ControlEscolar\\ViewModel\\ViewModelBase.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelBase.cs",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\ViewModelBase.cs",
               "RelativeToolTip": "ControlEscolar\\ViewModel\\ViewModelBase.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -460,33 +633,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "LogoAplicacionSomosUAZmini.ico - Icon [48x48, 32 bits, BMP]",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Resources\\LogoAplicacionSomosUAZmini.ico",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Resources\\LogoAplicacionSomosUAZmini.ico",
               "RelativeDocumentMoniker": "ControlEscolar\\Resources\\LogoAplicacionSomosUAZmini.ico",
               "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Resources\\LogoAplicacionSomosUAZmini.ico - Icon [48x48, 32 bits, BMP]",
-              "RelativeToolTip": "..\\..\\..\\..\\Trabajos\\Programacion Visual puntoNet\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Resources\\LogoAplicacionSomosUAZmini.ico - Icon [48x48, 32 bits, BMP]",
+              "RelativeToolTip": "..\\..\\..\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Resources\\LogoAplicacionSomosUAZmini.ico - Icon [48x48, 32 bits, BMP]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
               "WhenOpened": "2025-05-04T22:36:12.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "IconoEstudiante.png - PNG [1080x1080, 32 bits, PNG]",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoEstudiante.png",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoEstudiante.png",
               "RelativeDocumentMoniker": "ControlEscolar\\Images\\IconoEstudiante.png",
               "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoEstudiante.png - PNG [1080x1080, 32 bits, PNG]",
-              "RelativeToolTip": "..\\..\\..\\..\\Trabajos\\Programacion Visual puntoNet\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoEstudiante.png - PNG [1080x1080, 32 bits, PNG]",
+              "RelativeToolTip": "..\\..\\..\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoEstudiante.png - PNG [1080x1080, 32 bits, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2025-05-04T23:14:10.122Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "App.xaml",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml",
               "RelativeDocumentMoniker": "ControlEscolar\\App.xaml",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.xaml",
               "RelativeToolTip": "ControlEscolar\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-05-04T01:57:55.948Z",
@@ -494,35 +667,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "IconoAdministrador.png - PNG [1080x1080, 32 bits, PNG]",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoAdministrador.png",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoAdministrador.png",
               "RelativeDocumentMoniker": "ControlEscolar\\Images\\IconoAdministrador.png",
               "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoAdministrador.png - PNG [1080x1080, 32 bits, PNG]",
-              "RelativeToolTip": "..\\..\\..\\..\\Trabajos\\Programacion Visual puntoNet\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoAdministrador.png - PNG [1080x1080, 32 bits, PNG]",
+              "RelativeToolTip": "..\\..\\..\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\Images\\IconoAdministrador.png - PNG [1080x1080, 32 bits, PNG]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2025-05-04T23:14:05.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "ControlEscolar\\ViewModel\\LoginViewModel.cs",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\ViewModel\\LoginViewModel.cs",
-              "RelativeToolTip": "ControlEscolar\\ViewModel\\LoginViewModel.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFwAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "OverriddenGroupName": "ControlEscolar\\ViewModel",
-              "WhenOpened": "2025-05-04T01:47:21.874Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "App.config",
-              "DocumentMoniker": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.config",
+              "DocumentMoniker": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.config",
               "RelativeDocumentMoniker": "ControlEscolar\\App.config",
-              "ToolTip": "C:\\WorkSpace\\.NET\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.config",
+              "ToolTip": "C:\\Trabajos\\Programacion Visual puntoNet\\proyectoEsc\\proyectoEscolar-\\ControlEscolar\\ControlEscolar\\App.config",
               "RelativeToolTip": "ControlEscolar\\App.config",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",

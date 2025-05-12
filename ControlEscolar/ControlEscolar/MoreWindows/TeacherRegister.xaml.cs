@@ -23,5 +23,26 @@ namespace ControlEscolar.MoreWindows
         {
             InitializeComponent();
         }
+        private void btnMinimizar_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+        }
+
+        private void btnCerrar_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+        private void Inicio_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow ventanaPrincipal = new MainWindow();
+            ventanaPrincipal.Show();
+            this.Close();
+        }
+        private void Pagos_Click(object sender, RoutedEventArgs e)
+        {
+            PaymentView ventana = new PaymentView();
+            ventana.Show();
+            this.Close();
+        }
     }
 }

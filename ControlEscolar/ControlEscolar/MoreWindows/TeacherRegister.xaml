@@ -197,13 +197,13 @@
                 <StackPanel
                 Orientation="Vertical"
                 Margin="244,96,412,-128">
-                    <TextBlock Text="Correo Electrónico"
+                    <TextBlock Text="Contraseña"
                     Foreground="LightGray"
                     FontWeight="Medium"
                     FontFamily="Montserrat"
                     FontSize="15"
                     Height="20"/>
-                    <TextBox x:Name="TeacherEmail"
+                    <TextBox x:Name="TeacherPassword"
                     Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
                     FontFamily="Montserrat"
                     FontSize="13"
@@ -233,13 +233,13 @@
                 <StackPanel
                 Orientation="Vertical"
                 Margin="244,164,418,-192">
-                    <TextBlock Text="Telefono "
+                    <TextBlock Text="Edad"
                     Foreground="LightGray"
                     FontWeight="Medium"
                     FontFamily="Montserrat"
                     FontSize="15"
                     Height="21"/>
-                    <TextBox x:Name="TeacherTel"
+                    <TextBox x:Name="TeacherAge"
                     Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
                     FontFamily="Montserrat"
                     FontSize="13"
@@ -328,7 +328,7 @@ Margin="44,385,44,-391">
                 <StackPanel
                     Orientation="Vertical"
                     Margin="44,98,574,-130">
-                    <TextBlock Text="Nombre Completo"
+                    <TextBlock Text="Nombre"
                         Foreground="LightGray"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
@@ -408,7 +408,7 @@ Margin="44,385,44,-391">
                 </StackPanel>
                 <StackPanel
                     Orientation="Vertical"
-                    Margin="408,96,248,-128">
+                    Margin="408,96,232,-128">
                     <TextBlock Text="Numero de Empleado"
                         Foreground="LightGray"
                         FontWeight="Medium"
@@ -440,13 +440,13 @@ Margin="44,385,44,-391">
                 <StackPanel
                     Orientation="Vertical"
                     Margin="408,161,248,-193">
-                    <TextBlock Text="Especialidad"
+                    <TextBlock Text="CURP"
                         Foreground="LightGray"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
                         FontSize="15"
                         Height="20"/>
-                    <TextBox x:Name="TeacherSpecialty"
+                    <TextBox x:Name="TeacherCurp"
                         Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
                         FontFamily="Montserrat"
                         FontSize="13"

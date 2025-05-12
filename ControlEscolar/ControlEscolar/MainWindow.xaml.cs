@@ -60,5 +60,24 @@ namespace ControlEscolar
             ventana.Show();
             this.Close();
         }
+        private void UbicacionClick(object sender, RoutedEventArgs e)
+        {
+            UbicacionView ventana = new UbicacionView();
+            ventana.Show();
+            this.Close();
+        }
+
+        private void PlanEstudiosClick(object sender, RoutedEventArgs e)
+        {
+            PlanEstudiosView ventana = new PlanEstudiosView();
+            ventana.Show();
+            this.Close();
+        }
+        private void InstitucionClick(object sender, RoutedEventArgs e)
+        {
+            Institucion ventana = new Institucion();
+            ventana.Show();
+            this.Close();
+        }
     }
 }

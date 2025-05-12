@@ -15,7 +15,7 @@ namespace ControlEscolar.Repositories
         private readonly string _connectionString;
         public RepositoryBase()
         {
-            _connectionString = "Server = RICHLAP21\\SQLSERVER; " +
+            _connectionString = "Server = SEBACUNA\\VSGESTION; " +
                 "Database = ProyectoEsc; " +
                 "Integrated Security = true";
         }

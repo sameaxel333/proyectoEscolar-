@@ -230,12 +230,12 @@
 
 
 
-              
 
 
 
 
-               
+
+
 
 
 
@@ -254,33 +254,33 @@
                 Margin="44,385,44,-391">
 
 
-                                    <TextBlock 
+                    <TextBlock 
                     Background="White" RenderTransformOrigin="0.5,-4.057" Height="3"
                     Margin="0,0,0,10"/>
-                                <TextBlock Text="Contacto            Ubicación            Ayuda            Nuestra Institución            C 2025"
+                    <TextBlock Text="Contacto            Ubicación            Ayuda            Nuestra Institución            C 2025"
                     Foreground="LightCyan"
                     FontSize="16"
                     FontWeight="Medium"
                     FontFamily="Montserrat"
                     TextWrapping="Wrap"
                     TextAlignment="Center"
-                    Margin="0,5,0,50" Height="39" Width="709"/>             
+                    Margin="0,5,0,50" Height="39" Width="709"/>
 
 
                 </StackPanel>
 
-                
+
 
                 <StackPanel
                     Orientation="Vertical"
                     Margin="54,96,564,-128">
-                    <TextBlock Text="Usuario"
+                    <TextBlock Text="Nombre"
                         Foreground="LightGray"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
                         FontSize="15"
                         Height="20"/>
-                    <TextBox x:Name="AdminUser"
+                    <TextBox x:Name="AdminName"
                         Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
                         FontFamily="Montserrat"
                         FontSize="13"
@@ -352,8 +352,8 @@
                      Margin="0 10 0 0"
                      TextWrapping="Wrap"/>
                 </StackPanel>
-                
-                
+
+
                 <StackPanel
                     Orientation="Vertical"
                     Margin="211,222,388,-350">
@@ -396,18 +396,109 @@
                         Margin="0 10 0 0"
                         TextWrapping="Wrap"/>
                 </StackPanel>
+                <StackPanel
+                    Orientation="Vertical"
+                    Margin="220,96,398,-128">
+                    <TextBlock Text="CURP"
+                        Foreground="LightGray"
+                        FontWeight="Medium"
+                        FontFamily="Montserrat"
+                        FontSize="15"
+                        Height="20"/>
+                    <TextBox x:Name="AdminCURP"
+                        Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                        FontFamily="Montserrat"
+                        FontSize="13"
+                        FontWeight="Medium"
+                        Foreground="White"
+                        CaretBrush="LightGray"
+                        BorderBrush="DarkGray"
+                        BorderThickness="0,0,0,2"
+                        Height="24"
+                        VerticalContentAlignment="Center"
+                        HorizontalAlignment="Left"
+                        Margin="0,5,0,0"
+                        Padding="20,0,0,0" Width="142" TextChanged="txtUser1_TextChanged" RenderTransformOrigin="0.5,0.5">
+                        <TextBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.152"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBox.RenderTransform>
+                        <TextBox.Background>
+                            <ImageBrush 
+                                Stretch="None"
+                                AlignmentX="Left"/>
+                        </TextBox.Background>
+                    </TextBox>
+
+                </StackPanel>
+                <StackPanel
+                    Orientation="Vertical"
+                    Margin="211,170,407,-202">
+                    <TextBlock Text="Edad"
+                        Foreground="LightGray"
+                        FontWeight="Medium"
+                        FontFamily="Montserrat"
+                        FontSize="15"
+                        Height="20"/>
+                    <TextBox x:Name="AdminAge"
+                        Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                        FontFamily="Montserrat"
+                        FontSize="13"
+                        FontWeight="Medium"
+                        Foreground="White"
+                        CaretBrush="LightGray"
+                        BorderBrush="DarkGray"
+                        BorderThickness="0,0,0,2"
+                        Height="24"
+                        VerticalContentAlignment="Center"
+                        HorizontalAlignment="Left"
+                        Margin="0,5,0,0"
+                        Padding="20,0,0,0" Width="142" TextChanged="txtUser1_TextChanged" RenderTransformOrigin="0.5,0.5">
+                        <TextBox.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform/>
+                                <RotateTransform Angle="0.152"/>
+                                <TranslateTransform/>
+                            </TransformGroup>
+                        </TextBox.RenderTransform>
+                        <TextBox.Background>
+                            <ImageBrush 
+                                Stretch="None"
+                                AlignmentX="Left"/>
+                        </TextBox.Background>
+                    </TextBox>
+
+                </StackPanel>
+                <StackPanel
+                Orientation="Vertical"
+                Margin="369,96,263,-130">
+
+                    <TextBlock
+                    Text="Fecha de Nacimiento"
+                    Foreground="LightGray"
+                    FontWeight="Medium"
+                    FontFamily="Montserrat"
+                    FontSize="15"
+                    Height="33"/>
+                    <DatePicker
+                    x:Name="AdminDate"
+                    Width="164"
+                    Height="25"
+                    SelectedDateFormat="Short"
+                    />
+
+                </StackPanel>
 
             </Grid>
 
         </Border>
 
     </Border>
-
-
-
-
-
-
 
 
 

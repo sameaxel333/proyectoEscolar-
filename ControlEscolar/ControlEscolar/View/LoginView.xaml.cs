@@ -59,9 +59,7 @@ namespace ControlEscolar.View
         }
         private void AbrirSignUpView(object sender, RoutedEventArgs e)
         {
-            SignUpView ventana = new SignUpView();
-            ventana.Show();
-            this.Close();
+            
         }
 
         private void AbrirContactView(object sender, RoutedEventArgs e)

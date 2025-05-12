@@ -35,6 +35,9 @@ namespace ControlEscolar.Repositories
 
                 return (int)command.ExecuteScalar() > 0;
             }
+
+
+
         }
         public void Edit(UserModel userModel)
         {
@@ -55,5 +58,40 @@ namespace ControlEscolar.Repositories
         {
             throw new NotImplementedException();
         }
+
+
+        public UserModel GetUserInfo(string curp)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = @"
+            SELECT Nombre, Curp, Edad
+            FROM Estudiantes 
+            WHERE CURP = @CURP";
+
+                command.Parameters.Add("@CURP", SqlDbType.NVarChar).Value = curp;
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        return new UserModel()
+                        {
+                            Nombre = reader["Nombre"].ToString(),
+                            Username = reader["Curp"].ToString(),
+                            Edad = reader["Edad"].ToString()
+                        };
+                    }
+                }
+            }
+            return null;
+        }
+
+
+
+
     }
 }

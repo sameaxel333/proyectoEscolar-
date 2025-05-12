@@ -88,7 +88,7 @@ namespace ControlEscolar.ViewModel
         {
             string plainPassword = ConvertToUnsecureString(Password); // Convierte SecureString a string
             byte[] passwordHash = SHA256.Create().ComputeHash(Encoding.GetEncoding(28591).GetBytes(plainPassword));
-          
+
             var isValidUser = userRepository.AuthenticateUser(Username, passwordHash, App.UserRole);
             if (isValidUser)
             {
@@ -104,8 +104,12 @@ namespace ControlEscolar.ViewModel
         }
         private void OpenMainWindow()
         {
+            var UserInfoMainWindow = userRepository.GetUserInfo(Username);
+            string infoUser = $"{UserInfoMainWindow.Nombre},  {UserInfoMainWindow.Edad}";
             var mainWindow = new MainWindow();
+            mainWindow.DataContext = new UserModel { Name = infoUser };
             mainWindow.Show();
+
         }
 
         private string ConvertToUnsecureString(SecureString secureString)
