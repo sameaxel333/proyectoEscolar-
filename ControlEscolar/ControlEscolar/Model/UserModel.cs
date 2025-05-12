@@ -14,9 +14,16 @@ namespace ControlEscolar.Model
         public string Username { get; set; }
         public string Password { get; set; }
 
-        public string Edad { get; set; }
+        public int Edad { get; set; }
+
         public string Name { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
+
+        public string Matricula { get; set; }
+        public string CURP { get; set; }
+        public DateTime FechaNacimiento { get; set; }
+
+        public int Numero_Empleado { get; set; }
     }
 }

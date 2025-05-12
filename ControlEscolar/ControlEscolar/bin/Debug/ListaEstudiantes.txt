@@ -1,0 +1,6 @@
+LISTA DE ESTUDIANTES
+=============================================
+Matrícula	CURP		Nombre		Edad	Fecha Nacimiento
+-------------------------------------------------------------
+2023001	ESTD020505HDFRNL05	Juan Pérez	21	05/05/2002
+2023002	ESTD030606MDFRNL06	Ana Torres	20	06/06/2003

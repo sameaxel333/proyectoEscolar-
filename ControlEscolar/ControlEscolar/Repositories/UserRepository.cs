@@ -69,7 +69,7 @@ namespace ControlEscolar.Repositories
                 command.Connection = connection;
                 command.CommandText = @"
             SELECT Nombre, Curp, Edad
-            FROM Estudiantes 
+            FROM Estudiante 
             WHERE CURP = @CURP";
 
                 command.Parameters.Add("@CURP", SqlDbType.NVarChar).Value = curp;
@@ -82,7 +82,7 @@ namespace ControlEscolar.Repositories
                         {
                             Nombre = reader["Nombre"].ToString(),
                             Username = reader["Curp"].ToString(),
-                            Edad = reader["Edad"].ToString()
+                            Edad = Convert.ToInt32(reader["Edad"])  // ✅ Conversión correcta
                         };
                     }
                 }
@@ -90,8 +90,140 @@ namespace ControlEscolar.Repositories
             return null;
         }
 
+       
+        public bool InsertUser(UserModel user, string plainPassword)
+        {
 
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = @"
+                    INSERT INTO Valida_Estudiante 
+                      (Matricula, CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
+                    VALUES 
+                      (@matricula, @curp, @nombre, @edad, @fechaNac, HASHBYTES('SHA256', CONVERT(NVARCHAR(50), @contraseña)))
+                ";
+                command.Parameters.Add("@matricula", SqlDbType.NVarChar).Value = user.Matricula;
+                command.Parameters.Add("@curp", SqlDbType.NVarChar).Value = user.CURP;
+                command.Parameters.Add("@nombre", SqlDbType.NVarChar).Value = user.Nombre;
+                command.Parameters.Add("@edad", SqlDbType.Int).Value = user.Edad;
+                command.Parameters.Add("@fechaNac", SqlDbType.Date).Value = user.FechaNacimiento;
+                command.Parameters.Add("@contraseña", SqlDbType.NVarChar).Value = plainPassword;
+                int rowsAffected = command.ExecuteNonQuery();
+                return rowsAffected > 0;
+            }
+        }
+        public bool InsertTeacher(UserModel user, string plainPassword)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = @"
+            INSERT INTO Valida_Maestro
+              (Numero_Empleado, CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
+            VALUES 
+              (@numeroEmpleado, @curp, @nombre, @edad, @fechaNac, CONVERT(VARCHAR(64), HASHBYTES('SHA256', CONVERT(NVARCHAR(50), @contraseña)), 2))
+        ";
 
+                command.Parameters.Add("@numeroEmpleado", SqlDbType.Int).Value = user.Numero_Empleado;
+                command.Parameters.Add("@curp", SqlDbType.VarChar, 18).Value = user.CURP;
+                command.Parameters.Add("@nombre", SqlDbType.VarChar, 100).Value = user.Nombre;
+                command.Parameters.Add("@edad", SqlDbType.Int).Value = user.Edad;
+                command.Parameters.Add("@fechaNac", SqlDbType.Date).Value = user.FechaNacimiento;
+                command.Parameters.Add("@contraseña", SqlDbType.NVarChar, 50).Value = plainPassword;
 
+                int rowsAffected = command.ExecuteNonQuery();
+                return rowsAffected > 0;
+            }
+        }
+        public UserModel GetUserMaestroInfo(string curp)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = @"
+            SELECT Nombre, Curp, Edad
+            FROM Maestro 
+            WHERE CURP = @CURP";
+
+                command.Parameters.Add("@CURP", SqlDbType.NVarChar).Value = curp;
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        return new UserModel()
+                        {
+                            Nombre = reader["Nombre"].ToString(),
+                            Username = reader["Curp"].ToString(),
+                            Edad = Convert.ToInt32(reader["Edad"])
+                        };
+                    }
+                }
+            }
+            return null;
+        }
+
+        public UserModel GetUserAdminInfo(string curp)
+        {
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+                command.CommandText = @"
+            SELECT Nombre, Curp, Edad
+            FROM Administrador 
+            WHERE CURP = @CURP";
+
+                command.Parameters.Add("@CURP", SqlDbType.NVarChar).Value = curp;
+
+                using (var reader = command.ExecuteReader())
+                {
+                    if (reader.Read())
+                    {
+                        return new UserModel()
+                        {
+                            Nombre = reader["Nombre"].ToString(),
+                            Username = reader["Curp"].ToString(),
+                            Edad = Convert.ToInt32(reader["Edad"])
+                        };
+                    }
+                }
+            }
+            return null;
+        }
+        public List<Estudiante> ObtenerEstudiantes()
+        {
+            List<Estudiante> estudiantes = new List<Estudiante>();
+
+            using (SqlConnection conn = GetConnection())
+            {
+                conn.Open();
+                string query = "SELECT * FROM Estudiante";
+                SqlCommand cmd = new SqlCommand(query, conn);
+                SqlDataReader reader = cmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    estudiantes.Add(new Estudiante
+                    {
+                        Matricula = reader.IsDBNull(reader.GetOrdinal("Matricula")) ? 0 : Convert.ToInt32(reader["Matricula"]),
+                        CURP = reader.IsDBNull(reader.GetOrdinal("CURP")) ? string.Empty : reader["CURP"].ToString(),
+                        Nombre = reader.IsDBNull(reader.GetOrdinal("Nombre")) ? string.Empty : reader["Nombre"].ToString(),
+                        Edad = reader.IsDBNull(reader.GetOrdinal("Edad")) ? 0 : Convert.ToInt32(reader["Edad"]),
+                        FechaNacimiento = reader.IsDBNull(reader.GetOrdinal("Fecha_Nacimiento")) ? DateTime.MinValue : Convert.ToDateTime(reader["Fecha_Nacimiento"]),
+                    });
+                }
+            }
+
+            return estudiantes;
+        }
     }
 }

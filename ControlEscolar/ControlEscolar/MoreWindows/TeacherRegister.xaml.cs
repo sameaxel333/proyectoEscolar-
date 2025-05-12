@@ -1,5 +1,8 @@
-﻿using System;
+﻿using ControlEscolar.View;
+using ProyectoEscolarizado.View;
+using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -32,17 +35,44 @@ namespace ControlEscolar.MoreWindows
         {
             this.Close();
         }
-        private void Inicio_Click(object sender, RoutedEventArgs e)
+
+
+
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow ventanaPrincipal = new MainWindow();
-            ventanaPrincipal.Show();
+
+
+        }
+
+        private void AbrirLoginView(object sender, RoutedEventArgs e)
+        {
+            // Verificamos que App.UserRole ya esté definido (por ejemplo, "Estudiante", "Maestro", etc.)
+            if (string.IsNullOrWhiteSpace(App.UserRole))
+            {
+                UserRoleSelection userRoleSelectionWindow = new UserRoleSelection();
+                userRoleSelectionWindow.Show();
+                this.Close();
+                return;
+
+            }
+
+            // Pasamos el rol actual a la ventana LoginView
+            LoginView login = new LoginView(App.UserRole);
+            login.Show();
+            // Opcionalmente, cerrar la ventana actual si ya no se necesita.
             this.Close();
         }
-        private void Pagos_Click(object sender, RoutedEventArgs e)
+        private void AbrirContactView(object sender, RoutedEventArgs e)
         {
-            PaymentView ventana = new PaymentView();
+            ContactView ventana = new ContactView();
             ventana.Show();
             this.Close();
         }
+
+        private void txtUser1_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
     }
 }

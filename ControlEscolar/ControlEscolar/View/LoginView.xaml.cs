@@ -1,4 +1,5 @@
-﻿using ProyectoEscolarizado.View;
+﻿using ControlEscolar.MoreWindows;
+using ProyectoEscolarizado.View;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -59,7 +60,38 @@ namespace ControlEscolar.View
         }
         private void AbrirSignUpView(object sender, RoutedEventArgs e)
         {
-            
+            if (string.IsNullOrEmpty(App.UserRole))
+            {
+                UserRoleSelection userRoleSelectionWindow = new UserRoleSelection();
+                userRoleSelectionWindow.Show();
+                this.Close();
+                return;
+
+            }
+
+            Window signUpWindow = null;
+
+            // Selecciona la ventana de registro correspondiente según el rol
+            switch (App.UserRole)
+            {
+                case "Estudiante":
+                    signUpWindow = new StudentRegister();
+                    break;
+                case "Maestro":
+                    signUpWindow = new TeacherRegister();
+                    break;
+                case "Administrador":
+                    signUpWindow = new AdminRegister();
+                    break;
+                default:
+                    MessageBox.Show("El rol asignado no es reconocido.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    return;
+            }
+
+            // Abre la ventana de registro y cierra la ventana actual si es necesario
+            signUpWindow.Show();
+            this.Close();
+
         }
 
         private void AbrirContactView(object sender, RoutedEventArgs e)

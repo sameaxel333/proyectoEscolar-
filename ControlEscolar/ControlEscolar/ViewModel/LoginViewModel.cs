@@ -86,7 +86,7 @@ namespace ControlEscolar.ViewModel
         }
         private void ExecuteLoginCommand(object obj)
         {
-            string plainPassword = ConvertToUnsecureString(Password); // Convierte SecureString a string
+            string plainPassword = ConvertToUnsecureString(Password);
             byte[] passwordHash = SHA256.Create().ComputeHash(Encoding.GetEncoding(28591).GetBytes(plainPassword));
 
             var isValidUser = userRepository.AuthenticateUser(Username, passwordHash, App.UserRole);
@@ -95,17 +95,49 @@ namespace ControlEscolar.ViewModel
                 Thread.CurrentPrincipal = new GenericPrincipal(
                     new GenericIdentity(Username), null);
                 IsViewVisible = false;
-                OpenMainWindow();
+
+                // Nueva lógica para abrir según rol
+                if (App.UserRole == "Maestro")
+                {
+                    OpenMainWindowMaestro();
+                }
+                else if (App.UserRole == "Administrador")
+                {
+                    OpenMainWindowAdmin(); // Admin u otros
+                }
+                else
+                {
+                    OpenMainWindow();
+                }
             }
             else
             {
                 ErrorMessage = "* Usuario o contraseña inválidos";
             }
         }
+
+        private void OpenMainWindowAdmin()
+        {
+            var UserInfoMainWindowAdmin = userRepository.GetUserAdminInfo(Username);
+            string infoUser = $"{UserInfoMainWindowAdmin.Nombre},  {UserInfoMainWindowAdmin.Edad}";
+            var mainWindowAdmin = new MainWindowAdmin();
+            mainWindowAdmin.DataContext = new UserModel { Name = infoUser };
+            mainWindowAdmin.Show();
+
+        }
+        private void OpenMainWindowMaestro()
+        {
+            var UserInfoMainWindowMaestro = userRepository.GetUserMaestroInfo(Username);
+            string infoUser = $"{UserInfoMainWindowMaestro.Nombre},  {UserInfoMainWindowMaestro.Edad}";
+            var mainWindowMaestro = new MainWindowMaestro();
+            mainWindowMaestro.DataContext = new UserModel { Name = infoUser };
+            mainWindowMaestro.Show();
+
+        }
         private void OpenMainWindow()
         {
             var UserInfoMainWindow = userRepository.GetUserInfo(Username);
-            string infoUser = $"{UserInfoMainWindow.Nombre},  {UserInfoMainWindow.Edad}";
+            string infoUser = $"{UserInfoMainWindow.Nombre},  {UserInfoMainWindow.Edad}, {UserInfoMainWindow.Edad}";
             var mainWindow = new MainWindow();
             mainWindow.DataContext = new UserModel { Name = infoUser };
             mainWindow.Show();

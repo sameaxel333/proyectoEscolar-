@@ -13,7 +13,7 @@
          Background="Transparent"
          AllowsTransparency="True">
     <Window.DataContext>
-        <ViewModel:LoginViewModel/>
+        <ViewModel:TeacherRegisterViewModel/>
     </Window.DataContext>
 
     <Window.Resources>
@@ -65,68 +65,62 @@
                         <ColumnDefinition Width="5"/>
                     </Grid.ColumnDefinitions>
 
+                    <!-- Botón Minimizar -->
                     <Button x:Name="btnMinimizar"
-                 BorderThickness="0"
-                 Content="-"
-                 Foreground="White"
-                 FontSize="16"
-                 FontFamily="Monserrat"
-                 Cursor="Hand"
-                 Grid.Column="1"
-                 Click="btnMinimizar_Click" Margin="0,0,0,222" HorizontalAlignment="Right" Width="25">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Background" Value="#28AEED"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#278BEF"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
+                            Click="btnMinimizar_Click"
+                            ToolTip="Minimizar"
+                            Cursor="Hand"
+                            Width="28" Height="28"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Margin="694,0,0,232" Grid.ColumnSpan="2">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Width="18" Height="18" CornerRadius="9"
-                                 Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                              HorizontalAlignment="Center"/>
+                                <Border Background="{TemplateBinding Background}"
+                                        Width="28" Height="28"
+                                        x:Name="border">
+                                    <TextBlock Text="―"
+                                               FontSize="14"
+                                               Foreground="Black"
+                                               FontWeight="Bold"
+                                               HorizontalAlignment="Center"
+                                               VerticalAlignment="Center"/>
                                 </Border>
-
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="#DDDDDD"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
 
-
-
-
-
+                    <!-- Botón Cerrar -->
                     <Button x:Name="btnCerrar"
-                 BorderThickness="0"
-                 Content="x"
-                 Foreground="White"
-                 FontSize="16"
-                 FontFamily="Monserrat"
-                 Cursor="Hand"
-                 Grid.Column="2"
-                 Click="btnCerrar_Click" Grid.ColumnSpan="2" Margin="2,0,2,222">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Background" Value="Red"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#278BEF"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
+                            Click="btnCerrar_Click"
+                            ToolTip="Cerrar"
+                            Cursor="Hand"
+                            Width="28" Height="28"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Margin="23,0,4,232" Grid.Column="1" Grid.ColumnSpan="3">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Width="18" Height="18" CornerRadius="9"
-                     Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                  HorizontalAlignment="Center"/>
+                                <Border Background="{TemplateBinding Background}"
+                                        Width="28" Height="28"
+                                        x:Name="border">
+                                    <TextBlock Text="×"
+                                               FontSize="14"
+                                               Foreground="Black"
+                                               FontWeight="Bold"
+                                               HorizontalAlignment="Center"
+                                               VerticalAlignment="Center"/>
                                 </Border>
-
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter TargetName="border" Property="Background" Value="#FFCDD2"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
@@ -135,15 +129,33 @@
 
                 <StackPanel
                      Orientation="Vertical"
-                     Margin="96,-10,263,-48">
+                     Margin="10,44,418,-102">
 
-                    <TextBlock Text="Registro de Maestros"
-                        Foreground="White"
-                        FontSize="19"
+                    <TextBlock Foreground="White"
+                        FontSize="17"
                         FontWeight="Medium"
-                        FontFamily="Montserrat" Height="83"
-                        Margin="0,50,0,0" Width="204"
-                        />
+                        FontFamily="Montserrat"
+                        TextWrapping="Wrap"
+                        TextAlignment="Left"
+                        Height="34" Width="294"><Run Text="Resgistro de Estudiante "/><!-- Texto estático --></TextBlock>
+
+                    <TextBlock Foreground="LightCyan"
+                               FontSize="13"
+                               FontWeight="Medium"
+                               FontFamily="Montserrat"
+                               TextWrapping="Wrap"
+                               TextAlignment="Left"
+                               Margin="0,5,0,50" Height="19" Width="294">
+                        <Hyperlink Click="AbrirLoginView">
+                            <Run Text="Inicio de Sesión"/>
+                        </Hyperlink>
+                        <Run Text=" / "/>
+                        <Run Text="Registrarme"/>  <!-- Este es el estado actual, por lo que no es interactivo -->
+                        <Run Text=" / "/>
+                        <Hyperlink Click="AbrirContactView">
+                            <Run Text="Contáctanos"/>
+                        </Hyperlink>
+                    </TextBlock>
 
                     <TextBlock Text="{Binding ErrorMessage}"
                            Foreground="Red"
@@ -170,41 +182,27 @@
 
 
                 </StackPanel>
+                <Image Margin="314,44,-429,-837" Source="/Images/logoUAZ_traslucido.png" Stretch="Fill"/>
                 <StackPanel
                 Orientation="Vertical"
-                Margin="486,44,10,-328">
-                    <TextBlock Foreground="LightCyan"
-                       FontSize="14"
-                       FontWeight="Medium"
-                       FontFamily="Montserrat"
-                       TextWrapping="Wrap"
-                       TextAlignment="Right"
-                       Height="33" Width="285">
-                <Hyperlink Click="Inicio_Click">Inicio</Hyperlink>
-                <Run Text="    " />
-                <Hyperlink Click="Pagos_Click">Pagos</Hyperlink>
-                <Run Text="    " />
-                <Run Text="Kárdex" />
-                <Run Text="    " />
-                <Run Text="Configuración" />
-                    </TextBlock>
+                Margin="553,127,10,-328">
+
                     <Image Source="/Images/UAZlogo.png"
-                    Width="170"
-                    Height="212"
-                       Margin="100,0,0,0"
+                    Width="212"
+                    Height="211"
                        />
                 </StackPanel>
                 <StackPanel
                 Orientation="Vertical"
-                Margin="244,96,412,-128">
-                    <TextBlock Text="Contraseña"
+                Margin="244,120,412,-152">
+                    <TextBlock Text="Edad"
                     Foreground="LightGray"
                     FontWeight="Medium"
                     FontFamily="Montserrat"
                     FontSize="15"
-                    Height="20"/>
-                    <TextBox x:Name="TeacherPassword"
-                    Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                    Height="21"/>
+                    <TextBox x:Name="UserAge"
+                    Text="{Binding Edad, UpdateSourceTrigger=PropertyChanged}"
                     FontFamily="Montserrat"
                     FontSize="13"
                     FontWeight="Medium"
@@ -216,7 +214,7 @@
                     VerticalContentAlignment="Center"
                     HorizontalAlignment="Left"
                     Margin="0,5,0,0"
-                    Padding="20,0,0,0" Width="140" TextChanged="txtUser1_TextChanged">
+                    Padding="20,0,0,0" Width="96" >
                         <TextBox.Background>
                             <ImageBrush 
                             Stretch="None"
@@ -225,22 +223,17 @@
                     </TextBox>
 
                 </StackPanel>
-
-
-
-
-
                 <StackPanel
                 Orientation="Vertical"
-                Margin="244,164,418,-192">
-                    <TextBlock Text="Edad"
+                Margin="244,187,418,-215">
+                    <TextBlock Text="Contraseña "
                     Foreground="LightGray"
                     FontWeight="Medium"
                     FontFamily="Montserrat"
                     FontSize="15"
                     Height="21"/>
-                    <TextBox x:Name="TeacherAge"
-                    Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                    <TextBox x:Name="UserPassword"
+                    Text="{Binding Password, UpdateSourceTrigger=PropertyChanged}"
                     FontFamily="Montserrat"
                     FontSize="13"
                     FontWeight="Medium"
@@ -252,90 +245,45 @@
                     VerticalContentAlignment="Center"
                     HorizontalAlignment="Left"
                     Margin="0,5,0,0"
-                    Padding="20,0,0,0" Width="124" TextChanged="txtUser1_TextChanged">
+                    Padding="20,0,0,0" Width="124">
                         <TextBox.Background>
                             <ImageBrush 
                             Stretch="None"
                             AlignmentX="Left"/>
                         </TextBox.Background>
                     </TextBox>
-
-
                 </StackPanel>
-
-
-
-
                 <StackPanel
                 Orientation="Vertical"
                 Margin="96,109,574,-162"/>
 
-
-
-
-
-
-
-
-
-
-
-
-                <StackPanel
-                
-                
-             
-Orientation="Vertical"
-Margin="44,385,44,-391">
-
-
-                    <TextBlock 
-    Background="White" RenderTransformOrigin="0.5,-4.057" Height="3"
-    Margin="0,0,0,10"/>
-                    <TextBlock Text="Contacto            Ubicación            Ayuda            Nuestra Institución            C 2025"
-    Foreground="LightCyan"
-    FontSize="16"
-    FontWeight="Medium"
-    FontFamily="Montserrat"
-    TextWrapping="Wrap"
-    TextAlignment="Center"
-    Margin="0,5,0,50" Height="39" Width="709"/>
-
-
-                </StackPanel>
-
-                <StackPanel
-                Orientation="Vertical"
-                Margin="44,164,588,-198">
-
+                <StackPanel Orientation="Vertical" Margin="44,180,588,-214">
                     <TextBlock
-                    Text="Fecha de Contratación"
-                    Foreground="LightGray"
-                    FontWeight="Medium"
-                    FontFamily="Montserrat"
-                    FontSize="15"
-                    Height="33"/>
+                        Text="Fecha de Nacimiento"
+                        Foreground="LightGray"
+                        FontWeight="Medium"
+                        FontFamily="Montserrat"
+                        FontSize="15"
+                        Height="33"/>
                     <DatePicker
-                    x:Name="TeacherDate"
-                    Width="164"
-                    Height="25"
-                    SelectedDateFormat="Short"
-                    />
-
+                        x:Name="UserDate"
+                        Width="164"
+                        Height="25"
+                        SelectedDateFormat="Short"
+                        SelectedDate="{Binding FechaNacimiento, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
                 </StackPanel>
-
 
                 <StackPanel
                     Orientation="Vertical"
-                    Margin="44,98,574,-130">
+                    Margin="44,120,574,-152">
                     <TextBlock Text="Nombre"
                         Foreground="LightGray"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
                         FontSize="15"
                         Height="20"/>
-                    <TextBox x:Name="TeacherName"
-                        Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                    <TextBox x:Name="NameUser"
+                        Text="{Binding Nombre, UpdateSourceTrigger=PropertyChanged}"
                         FontFamily="Montserrat"
                         FontSize="13"
                         FontWeight="Medium"
@@ -347,7 +295,7 @@ Margin="44,385,44,-391">
                         VerticalContentAlignment="Center"
                         HorizontalAlignment="Left"
                         Margin="0,5,0,0"
-                        Padding="20,0,0,0" Width="177" TextChanged="txtUser1_TextChanged" RenderTransformOrigin="0.5,0.5">
+                        Padding="20,0,0,0" Width="177" RenderTransformOrigin="0.5,0.5">
                         <TextBox.RenderTransform>
                             <TransformGroup>
                                 <ScaleTransform/>
@@ -368,18 +316,19 @@ Margin="44,385,44,-391">
                     Orientation="Vertical"
                     Margin="25,223,574,-351">
                     <Button x:Name="btnRegister"
-                     Command="{Binding LoginCommand}"
-                     BorderThickness="0"
-                     Content="Registrar"
-                     Foreground="DarkGray"
-                     FontSize="14"
-                     FontFamily="Montserrat"
-                     Cursor="Hand"
-                     Click="btnRegister_Click"
-                        Margin="0,60,0,0" Height="56" Width="158">
+                            Command="{Binding RegisterCommand}"
+                            BorderThickness="0"
+                            Content="Registrar"
+                            Foreground="DarkGray"
+                            FontSize="14"
+                            FontFamily="Montserrat"
+                            Cursor="Hand"
+                            Margin="0,60,0,0"
+                            Height="56"
+                            Width="158">
                         <Button.Style>
                             <Style TargetType="{x:Type Button}">
-                                <Setter Property="Background" Value="#462AD8"/>
+                                <Setter Property="Background" Value="#003757"/>
                                 <Style.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
                                         <Setter Property="Background" Value="#28AEED"/>
@@ -390,14 +339,13 @@ Margin="44,385,44,-391">
                         <Button.Template>
                             <ControlTemplate TargetType="{x:Type Button}">
                                 <Border Width="150" Height="40" CornerRadius="20"
-                             Background="{TemplateBinding Background}">
+                                        Background="{TemplateBinding Background}">
                                     <ContentPresenter VerticalAlignment="Center"
-                                               HorizontalAlignment="Center"/>
+                                  HorizontalAlignment="Center"/>
                                 </Border>
                             </ControlTemplate>
                         </Button.Template>
                     </Button>
-
                     <TextBlock Text="{Binding ErrorMessage}"
                      Foreground="Red"
                      FontSize="12"
@@ -408,15 +356,15 @@ Margin="44,385,44,-391">
                 </StackPanel>
                 <StackPanel
                     Orientation="Vertical"
-                    Margin="408,96,232,-128">
-                    <TextBlock Text="Numero de Empleado"
+                    Margin="389,120,267,-152">
+                    <TextBlock Text="Matricula"
                         Foreground="LightGray"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
                         FontSize="15"
                         Height="20"/>
-                    <TextBox x:Name="TeacherID"
-                        Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                    <TextBox x:Name="UserID"
+                        Text="{Binding Matricula, UpdateSourceTrigger=PropertyChanged}"
                         FontFamily="Montserrat"
                         FontSize="13"
                         FontWeight="Medium"
@@ -428,7 +376,7 @@ Margin="44,385,44,-391">
                         VerticalContentAlignment="Center"
                         HorizontalAlignment="Left"
                         Margin="0,5,0,0"
-                        Padding="20,0,0,0" Width="140" TextChanged="txtUser1_TextChanged">
+                        Padding="20,0,0,0" Width="140" >
                         <TextBox.Background>
                             <ImageBrush 
                                 Stretch="None"
@@ -437,17 +385,18 @@ Margin="44,385,44,-391">
                     </TextBox>
 
                 </StackPanel>
+
                 <StackPanel
                     Orientation="Vertical"
-                    Margin="408,161,248,-193">
+                    Margin="389,187,267,-219">
                     <TextBlock Text="CURP"
                         Foreground="LightGray"
                         FontWeight="Medium"
                         FontFamily="Montserrat"
                         FontSize="15"
                         Height="20"/>
-                    <TextBox x:Name="TeacherCurp"
-                        Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                    <TextBox x:Name="UserCurp"
+                        Text="{Binding CURP, UpdateSourceTrigger=PropertyChanged}"
                         FontFamily="Montserrat"
                         FontSize="13"
                         FontWeight="Medium"
@@ -459,7 +408,7 @@ Margin="44,385,44,-391">
                         VerticalContentAlignment="Center"
                         HorizontalAlignment="Left"
                         Margin="0,5,0,0"
-                        Padding="20,0,0,0" Width="140" TextChanged="txtUser1_TextChanged">
+                        Padding="20,0,0,0" Width="140" >
                         <TextBox.Background>
                             <ImageBrush 
                                 Stretch="None"
@@ -471,36 +420,7 @@ Margin="44,385,44,-391">
                 <StackPanel
                     Orientation="Vertical"
                     Margin="211,222,388,-350">
-                    <Button x:Name="btnCancel"
-                        Command="{Binding LoginCommand}"
-                        BorderThickness="0"
-                        Content="Cancelar"
-                        Foreground="DarkGray"
-                        FontSize="14"
-                        FontFamily="Montserrat"
-                        Cursor="Hand"
-                        Click="btnCancel_Click_1"
-                        Margin="0,60,0,0" Height="56" Width="158">
-                        <Button.Style>
-                            <Style TargetType="{x:Type Button}">
-                                <Setter Property="Background" Value="#462AD8"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#28AEED"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                        <Button.Template>
-                            <ControlTemplate TargetType="{x:Type Button}">
-                                <Border Width="150" Height="40" CornerRadius="20"
-                                    Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                                        HorizontalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Button.Template>
-                    </Button>
+
 
                     <TextBlock Text="{Binding ErrorMessage}"
                         Foreground="Red"
@@ -511,6 +431,7 @@ Margin="44,385,44,-391">
                         TextWrapping="Wrap"/>
                 </StackPanel>
 
+                <Image Source="/Images/nombre_institucion.png" Margin="509,48,-40,-142"/>
             </Grid>
 
         </Border>
@@ -518,12 +439,4 @@ Margin="44,385,44,-391">
     </Border>
 
 
-
-
-
-
-
-
-
 </Window>
-

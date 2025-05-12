@@ -55,6 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="MainWindowAdmin.xaml.cs">
+      <DependentUpon>MainWindowAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowMaestro.xaml.cs">
+      <DependentUpon>MainWindowMaestro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Estudiante.cs" />
     <Compile Include="MoreWindows\AdminRegister.xaml.cs">
       <DependentUpon>AdminRegister.xaml</DependentUpon>
     </Compile>
@@ -76,6 +83,8 @@
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\StudentRegisterViewModel.cs" />
+    <Compile Include="ViewModel\TeacherRegisterViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="ViewModel\ViewModelCommand.cs" />
     <Compile Include="View\ContactViewMain.xaml.cs">
@@ -84,8 +93,20 @@
     <Compile Include="View\ContactView.xaml.cs">
       <DependentUpon>ContactView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\ContactViewMainAdmin.xaml.cs">
+      <DependentUpon>ContactViewMainAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ContactViewMainMaestro.xaml.cs">
+      <DependentUpon>ContactViewMainMaestro.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Institucion.xaml.cs">
       <DependentUpon>Institucion.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\InstitucionMainAdmin.xaml.cs">
+      <DependentUpon>InstitucionMainAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\InstitucionMainMaestro.xaml.cs">
+      <DependentUpon>InstitucionMainMaestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
@@ -93,8 +114,20 @@
     <Compile Include="View\PlanEstudiosView.xaml.cs">
       <DependentUpon>PlanEstudiosView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\PlanEstudiosViewMainAdmin.xaml.cs">
+      <DependentUpon>PlanEstudiosViewMainAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\PlanEstudiosViewMainMaestro.xaml.cs">
+      <DependentUpon>PlanEstudiosViewMainMaestro.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\UbicacionView.xaml.cs">
       <DependentUpon>UbicacionView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UbicacionViewMainAdmin.xaml.cs">
+      <DependentUpon>UbicacionViewMainAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\UbicacionViewMainMaestro.xaml.cs">
+      <DependentUpon>UbicacionViewMainMaestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\UserRoleSelection.xaml.cs">
       <DependentUpon>UserRoleSelection.xaml</DependentUpon>
@@ -118,6 +151,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MainWindowAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindowMaestro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MoreWindows\AdminRegister.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -150,9 +191,25 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\ContactViewMainAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\ContactViewMainMaestro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\Institucion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\InstitucionMainAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\InstitucionMainMaestro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="View\LoginView.xaml">
       <SubType>Designer</SubType>
@@ -162,7 +219,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="View\PlanEstudiosViewMainAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\PlanEstudiosViewMainMaestro.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="View\UbicacionView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UbicacionViewMainAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\UbicacionViewMainMaestro.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>

@@ -37,7 +37,7 @@ namespace ControlEscolar.View
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-            UserRoleSelection ventana = new UserRoleSelection();
+            MainWindow ventana = new MainWindow();
             ventana.Show();
             this.Close();
         }
