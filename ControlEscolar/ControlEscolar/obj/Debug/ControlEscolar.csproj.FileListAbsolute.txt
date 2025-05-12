@@ -126,3 +126,4 @@ C:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEsc
 C:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\Institucion.g.cs
 C:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\PlanEstudios.g.cs
 C:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\UbicacionView.g.cs
+C:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\obj\Debug\View\PlanEstudiosView.g.cs

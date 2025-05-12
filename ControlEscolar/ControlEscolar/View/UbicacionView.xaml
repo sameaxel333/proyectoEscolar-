@@ -176,8 +176,8 @@
                 <StackPanel
                     Orientation="Vertical"
                     Margin="484,40,98,-324"/>
-                <Image Source="\Images\UbicacionIngenieriaSoftwareMaps.png"
-                        Margin="136,62,136,-422"/>
+                <Image Source="/Images/UbicacionIngenieriaSoftwareMaps.png"
+                        Margin="136,138,136,-379"/>
 
 
 

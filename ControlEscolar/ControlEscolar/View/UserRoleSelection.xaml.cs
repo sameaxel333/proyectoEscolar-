@@ -16,17 +16,17 @@ namespace ProyectoEscolarizado.View
 
         private void Estudiante_Click(object sender, RoutedEventArgs e)
         {
-            AbrirLogin("Estudiantes");
+            AbrirLogin("Estudiante");
         }
 
         private void Maestro_Click(object sender, RoutedEventArgs e)
         {
-            AbrirLogin("Maestros");
+            AbrirLogin("Maestro");
         }
 
         private void Admin_Click(object sender, RoutedEventArgs e)
         {
-            AbrirLogin("Administradores");
+            AbrirLogin("Administrador");
         }
 
         private void AbrirLogin(string role)
