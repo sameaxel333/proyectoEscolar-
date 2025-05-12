@@ -17,6 +17,7 @@ namespace ControlEscolar.Model
         UserModel GetByUsername(string username);
         UserModel GetUserInfo(string curp);
         bool InsertUser(UserModel user, string plainPassword);
+        bool InsertTeacher(UserModel user, string plainPassword);
         UserModel GetUserMaestroInfo(string curp);
 
         UserModel GetUserAdminInfo(string curp);

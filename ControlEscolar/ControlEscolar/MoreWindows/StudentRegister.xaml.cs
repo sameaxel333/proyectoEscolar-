@@ -38,11 +38,7 @@ namespace ControlEscolar.MoreWindows
 
       
 
-        private void btnRegister_Click(object sender, RoutedEventArgs e)
-        {
-            
-
-        }
+        
 
         private void AbrirLoginView(object sender, RoutedEventArgs e)
         {

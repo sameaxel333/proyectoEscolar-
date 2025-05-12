@@ -172,15 +172,13 @@
                                Width="704">
                             <Run Text="Tu Información General :"/>
                             <LineBreak/>
-                            <Run Text="- CURP:"/>
+                            <Run Text="CURP: " />
+                            <Run Text="{Binding CURP}" Foreground="#FF6EC9" />
                             <LineBreak/>
-                            <Run Text="- Nombre:"/>
-                            <LineBreak/>
-                            <Run Text="- Edad:"/>
-                            <LineBreak/>
-                            <Run Text="- Fecha Nacimiento:"/>
-                            </TextBlock>
+                            <Run Text="Edad: " />
+                            <Run Text="{Binding Edad}" Foreground="#FF6EC9" />
 
+                    </TextBlock>
                     <TextBlock Background="White" 
                                RenderTransformOrigin="0.5,-4.057" 
                                Height="3"

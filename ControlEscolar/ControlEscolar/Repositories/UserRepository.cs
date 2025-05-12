@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Documents;
 using System.Windows.Input;
 using ControlEscolar.Model;
@@ -90,56 +91,90 @@ namespace ControlEscolar.Repositories
             return null;
         }
 
-       
+
         public bool InsertUser(UserModel user, string plainPassword)
         {
+            // Validación previa para evitar valores vacíos o nulos en la contraseña
+            if (string.IsNullOrWhiteSpace(plainPassword))
+            {
+                System.Windows.MessageBox.Show("La contraseña no puede estar vacía.");
+                return false;
+            }
 
             using (var connection = GetConnection())
             using (var command = new SqlCommand())
             {
                 connection.Open();
                 command.Connection = connection;
+
                 command.CommandText = @"
-                    INSERT INTO Valida_Estudiante 
-                      (Matricula, CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
-                    VALUES 
-                      (@matricula, @curp, @nombre, @edad, @fechaNac, HASHBYTES('SHA256', CONVERT(NVARCHAR(50), @contraseña)))
-                ";
+            INSERT INTO Estudiante
+              (Matricula, CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
+            VALUES 
+              (@matricula, @curp, @nombre, @edad, @fechaNac, @contraseña)
+        ";
+
+                // Asignación de parámetros correcta
                 command.Parameters.Add("@matricula", SqlDbType.NVarChar).Value = user.Matricula;
                 command.Parameters.Add("@curp", SqlDbType.NVarChar).Value = user.CURP;
                 command.Parameters.Add("@nombre", SqlDbType.NVarChar).Value = user.Nombre;
                 command.Parameters.Add("@edad", SqlDbType.Int).Value = user.Edad;
                 command.Parameters.Add("@fechaNac", SqlDbType.Date).Value = user.FechaNacimiento;
-                command.Parameters.Add("@contraseña", SqlDbType.NVarChar).Value = plainPassword;
+
+                // 🔥 SOLUCIÓN: Aplica SHA256 en C# antes de enviar la contraseña a SQL Server
+                byte[] hashedPassword = System.Security.Cryptography.SHA256.Create().ComputeHash(System.Text.Encoding.UTF8.GetBytes(plainPassword));
+                command.Parameters.Add("@contraseña", SqlDbType.VarBinary, 64).Value = hashedPassword;
+
+                // Depuración antes de la ejecución
+                System.Windows.MessageBox.Show($"Contraseña en bytes: {BitConverter.ToString(hashedPassword)}");
+
                 int rowsAffected = command.ExecuteNonQuery();
                 return rowsAffected > 0;
             }
         }
+
         public bool InsertTeacher(UserModel user, string plainPassword)
         {
+            // Validación para evitar valores vacíos o nulos en la contraseña
+            if (string.IsNullOrWhiteSpace(plainPassword))
+            {
+                System.Windows.MessageBox.Show("La contraseña no puede estar vacía.");
+                return false;
+            }
+
             using (var connection = GetConnection())
             using (var command = new SqlCommand())
             {
                 connection.Open();
                 command.Connection = connection;
+
                 command.CommandText = @"
-            INSERT INTO Valida_Maestro
+            INSERT INTO Maestro
               (Numero_Empleado, CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
             VALUES 
-              (@numeroEmpleado, @curp, @nombre, @edad, @fechaNac, CONVERT(VARCHAR(64), HASHBYTES('SHA256', CONVERT(NVARCHAR(50), @contraseña)), 2))
+              (@numeroEmpleado, @curp, @nombre, @edad, @fechaNac, @contraseña)
         ";
 
+                // Asignación de parámetros correcta
                 command.Parameters.Add("@numeroEmpleado", SqlDbType.Int).Value = user.Numero_Empleado;
                 command.Parameters.Add("@curp", SqlDbType.VarChar, 18).Value = user.CURP;
                 command.Parameters.Add("@nombre", SqlDbType.VarChar, 100).Value = user.Nombre;
                 command.Parameters.Add("@edad", SqlDbType.Int).Value = user.Edad;
                 command.Parameters.Add("@fechaNac", SqlDbType.Date).Value = user.FechaNacimiento;
-                command.Parameters.Add("@contraseña", SqlDbType.NVarChar, 50).Value = plainPassword;
+
+                // 🔥 SOLUCIÓN: Aplica `HASHBYTES` en C# antes de pasar el valor a SQL Server
+                byte[] hashedPassword = System.Security.Cryptography.SHA256.Create().ComputeHash(System.Text.Encoding.UTF8.GetBytes(plainPassword));
+                command.Parameters.Add("@contraseña", SqlDbType.VarBinary, 64).Value = hashedPassword;
+
+                // Depuración antes de la ejecución
+                System.Windows.MessageBox.Show($"Contraseña en bytes: {BitConverter.ToString(hashedPassword)}");
 
                 int rowsAffected = command.ExecuteNonQuery();
                 return rowsAffected > 0;
             }
         }
+
+
         public UserModel GetUserMaestroInfo(string curp)
         {
             using (var connection = GetConnection())

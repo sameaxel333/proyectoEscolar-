@@ -137,7 +137,7 @@
                         FontFamily="Montserrat"
                         TextWrapping="Wrap"
                         TextAlignment="Left"
-                        Height="34" Width="294"><Run Text="Resgistro de Estudiante "/><!-- Texto estático --></TextBlock>
+                        Height="34" Width="294"><Run Text="Resgistro de Maestros "/><!-- Texto estático --></TextBlock>
 
                     <TextBlock Foreground="LightCyan"
                                FontSize="13"
@@ -325,7 +325,7 @@
                             Cursor="Hand"
                             Margin="0,60,0,0"
                             Height="56"
-                            Width="158">
+                            Width="158" Click="btnRegister_Click">
                         <Button.Style>
                             <Style TargetType="{x:Type Button}">
                                 <Setter Property="Background" Value="#003757"/>
@@ -357,7 +357,7 @@
                 <StackPanel
                     Orientation="Vertical"
                     Margin="389,120,267,-152">
-                    <TextBlock Text="Matricula"
+                    <TextBlock Text="Numero Empleado"
                         Foreground="LightGray"
                         FontWeight="Medium"
                         FontFamily="Montserrat"

@@ -118,30 +118,60 @@ namespace ControlEscolar.ViewModel
 
         private void OpenMainWindowAdmin()
         {
-            var UserInfoMainWindowAdmin = userRepository.GetUserAdminInfo(Username);
-            string infoUser = $"{UserInfoMainWindowAdmin.Nombre},  {UserInfoMainWindowAdmin.Edad}";
-            var mainWindowAdmin = new MainWindowAdmin();
-            mainWindowAdmin.DataContext = new UserModel { Name = infoUser };
-            mainWindowAdmin.Show();
+            var userInfo = userRepository.GetUserAdminInfo(Username);
 
+            var userModel = new UserModel
+            {
+                Name = userInfo.Nombre,
+                Edad = userInfo.Edad,
+                CURP = userInfo.CURP
+            };
+
+            var mainWindowAdmin = new MainWindowAdmin
+            {
+                DataContext = userModel
+            };
+
+            mainWindowAdmin.Show();
         }
+
+
         private void OpenMainWindowMaestro()
         {
-            var UserInfoMainWindowMaestro = userRepository.GetUserMaestroInfo(Username);
-            string infoUser = $"{UserInfoMainWindowMaestro.Nombre},  {UserInfoMainWindowMaestro.Edad}";
-            var mainWindowMaestro = new MainWindowMaestro();
-            mainWindowMaestro.DataContext = new UserModel { Name = infoUser };
-            mainWindowMaestro.Show();
+            var userInfo = userRepository.GetUserMaestroInfo(Username);
 
+            var userModel = new UserModel
+            {
+                Name = userInfo.Nombre,
+                Edad = userInfo.Edad,
+                CURP = userInfo.CURP
+
+            };
+
+            var mainWindowMaestro = new MainWindowMaestro
+            {
+                DataContext = userModel
+            };
+
+            mainWindowMaestro.Show();
         }
         private void OpenMainWindow()
         {
-            var UserInfoMainWindow = userRepository.GetUserInfo(Username);
-            string infoUser = $"{UserInfoMainWindow.Nombre},  {UserInfoMainWindow.Edad}, {UserInfoMainWindow.Edad}";
-            var mainWindow = new MainWindow();
-            mainWindow.DataContext = new UserModel { Name = infoUser };
-            mainWindow.Show();
+            var userInfo = userRepository.GetUserInfo(Username);
 
+            var userModel = new UserModel
+            {
+                Name = userInfo.Nombre,
+                Edad = userInfo.Edad,
+                CURP = userInfo.CURP
+            };
+
+            var mainWindow = new MainWindow
+            {
+                DataContext = userModel
+            };
+
+            mainWindow.Show();
         }
 
         private string ConvertToUnsecureString(SecureString secureString)

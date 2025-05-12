@@ -157,7 +157,7 @@
                                TextAlignment="Center"
                                Height="106" 
                                Width="704">
-                        <Run Text="Bienvenido, "/>
+                        <Run Text="Bienvenido Alumno: "/>
                         <Run Text="{Binding Name}" Foreground="#FF6EC9"/>
 
                     </TextBlock>
@@ -173,12 +173,13 @@
                                Width="704">
                         <Run Text="Tu Información General :"/>
                         <LineBreak/>
-                        <Run Text="- Promedio General"/>
-                        <LineBreak/>
-                        <Run Text="- Materias Aprobadas"/>
-                        <LineBreak/>
-                        <Run Text="- Materias Reprobadas"/>
-                    </TextBlock>
+                            <Run Text="CURP: " />
+                            <Run Text="{Binding CURP}" Foreground="#FF6EC9" />
+                            <LineBreak/>
+                            <Run Text="Edad: " />
+                            <Run Text="{Binding Edad}" Foreground="#FF6EC9" />
+
+                    </TextBlock>
 
                     <TextBlock Background="White" 
                                RenderTransformOrigin="0.5,-4.057" 

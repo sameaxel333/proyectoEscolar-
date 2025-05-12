@@ -37,13 +37,6 @@ namespace ControlEscolar.MoreWindows
         }
 
 
-
-        private void btnRegister_Click(object sender, RoutedEventArgs e)
-        {
-
-
-        }
-
         private void AbrirLoginView(object sender, RoutedEventArgs e)
         {
             // Verificamos que App.UserRole ya esté definido (por ejemplo, "Estudiante", "Maestro", etc.)
@@ -74,5 +67,9 @@ namespace ControlEscolar.MoreWindows
 
         }
 
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

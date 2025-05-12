@@ -1,6 +1,7 @@
 ﻿using ControlEscolar.Model;
 using ControlEscolar.MoreWindows;
 using ControlEscolar.Repositories;
+using ControlEscolar.Helpers; 
 using ProyectoEscolarizado.View;
 using System;
 using System.ComponentModel;
@@ -20,7 +21,7 @@ namespace ControlEscolar.ViewModel
         public TeacherRegisterViewModel()
         {
             _userRepository = new UserRepository();
-            RegisterCommand = new ViewModelCommand(RegisterUser, CanRegisterUser);
+            RegisterCommand = new RelayCommand(ExecuteRegister, CanExecuteRegister);
             FechaNacimiento = DateTime.Now;
         }
 
@@ -33,8 +34,8 @@ namespace ControlEscolar.ViewModel
         }
 
         // Propiedades del formulario
-        private string _Numero_Empleado;
-        public string Numero_Empleado
+        private int _Numero_Empleado;
+        public int Numero_Empleado
         {
             get => _Numero_Empleado;
             set { _Numero_Empleado = value; OnPropertyChanged(); }
@@ -68,21 +69,15 @@ namespace ControlEscolar.ViewModel
             set { _fechaNacimiento = value; OnPropertyChanged(); }
         }
 
-
-
-
-
-        private bool CanRegisterUser(object parameter)
+        private bool CanExecuteRegister(object parameter)
         {
             return !string.IsNullOrEmpty(CURP) &&
-                   !string.IsNullOrEmpty(Numero_Empleado) &&
                    !string.IsNullOrEmpty(Nombre) &&
                    !string.IsNullOrEmpty(Password);
         }
 
 
-
-        private void RegisterUser(object parameter)
+        private void ExecuteRegister(object parameter)
         {
             DateTime hoy = DateTime.Now;
             int edadCalculada = hoy.Year - FechaNacimiento.Year;
@@ -99,24 +94,30 @@ namespace ControlEscolar.ViewModel
                 System.Windows.MessageBox.Show("Debes ser mayor de 18 años.");
                 return;
             }
+            if (string.IsNullOrWhiteSpace(this.Password))
+            {
+                System.Windows.MessageBox.Show("La contraseña no puede estar vacía.");
+                return;
+            }
+
 
             var newUser = new UserModel
             {
-                Matricula = this.Numero_Empleado,
+                Numero_Empleado = this.Numero_Empleado,
                 CURP = this.CURP,
                 Nombre = this.Nombre,
                 Edad = edadCalculada,
-                FechaNacimiento = this.FechaNacimiento
+                FechaNacimiento = this.FechaNacimiento,
             };
 
-            bool inserto = _userRepository.InsertUser(newUser, this.Password);
+            bool inserto = _userRepository.InsertTeacher(newUser, this.Password);
 
             if (inserto)
             {
                 System.Windows.MessageBox.Show("Se envió la solicitud correctamente.", "Registro Exitoso", MessageBoxButton.OK, MessageBoxImage.Information);
                 UserRoleSelection userRoleSelectionWindow = new UserRoleSelection();
                 userRoleSelectionWindow.Show();
-                System.Windows.Application.Current.Windows.OfType<StudentRegister>().FirstOrDefault()?.Close();
+                System.Windows.Application.Current.Windows.OfType<TeacherRegister>().FirstOrDefault()?.Close();
             }
             else
             {
