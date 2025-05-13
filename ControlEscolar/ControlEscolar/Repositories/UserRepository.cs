@@ -161,8 +161,6 @@ namespace ControlEscolar.Repositories
                 command.Parameters.Add("@nombre", SqlDbType.VarChar, 100).Value = user.Nombre;
                 command.Parameters.Add("@edad", SqlDbType.Int).Value = user.Edad;
                 command.Parameters.Add("@fechaNac", SqlDbType.Date).Value = user.FechaNacimiento;
-
-                // 🔥 SOLUCIÓN: Aplica `HASHBYTES` en C# antes de pasar el valor a SQL Server
                 byte[] hashedPassword = System.Security.Cryptography.SHA256.Create().ComputeHash(System.Text.Encoding.UTF8.GetBytes(plainPassword));
                 command.Parameters.Add("@contraseña", SqlDbType.VarBinary, 64).Value = hashedPassword;
 
@@ -174,7 +172,48 @@ namespace ControlEscolar.Repositories
             }
         }
 
+        public bool InsertAdmin(UserModel admin, string plainPassword)
+        {
+            // Validación para evitar valores vacíos en la contraseña
+            if (string.IsNullOrWhiteSpace(plainPassword))
+            {
+                System.Windows.MessageBox.Show("La contraseña no puede estar vacía.");
+                return false;
+            }
 
+            using (var connection = GetConnection())
+            using (var command = new SqlCommand())
+            {
+                connection.Open();
+                command.Connection = connection;
+
+                command.CommandText = @"
+    INSERT INTO Administrador
+      (CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
+    VALUES 
+      (@curp, @nombre, @edad, @fechaNac, @contraseña)
+";
+
+                
+                command.Parameters.Add("@curp", SqlDbType.VarChar, 18).Value = admin.CURP; //  Se agrega `@curp`
+                command.Parameters.Add("@nombre", SqlDbType.VarChar, 100).Value = admin.Nombre;
+                command.Parameters.Add("@edad", SqlDbType.Int).Value = admin.Edad;
+                command.Parameters.Add("@fechaNac", SqlDbType.Date).Value = admin.FechaNacimiento;
+                byte[] hashedPassword = System.Security.Cryptography.SHA256.Create()
+                    .ComputeHash(System.Text.Encoding.UTF8.GetBytes(plainPassword));
+                command.Parameters.Add("@contraseña", SqlDbType.VarBinary, 64).Value = hashedPassword;
+
+                // Depuración para confirmar valores antes del INSERT
+                System.Windows.MessageBox.Show($"CURP antes del insert: {admin.CURP}");
+                System.Windows.MessageBox.Show($"Contraseña en bytes: {BitConverter.ToString(hashedPassword)}");
+
+                int rowsAffected = command.ExecuteNonQuery();
+                return rowsAffected > 0;
+
+
+             
+            }
+        }
         public UserModel GetUserMaestroInfo(string curp)
         {
             using (var connection = GetConnection())

@@ -127,12 +127,21 @@ namespace ControlEscolar.ViewModel
                 CURP = userInfo.CURP
             };
 
-            var mainWindowAdmin = new MainWindowAdmin
-            {
-                DataContext = userModel
-            };
+            var mainWindowAdmin = System.Windows.Application.Current.Windows.OfType<MainWindowAdmin>().FirstOrDefault();
 
-            mainWindowAdmin.Show();
+            if (mainWindowAdmin != null)
+            {
+                mainWindowAdmin.Show(); 
+            }
+            else
+            {
+                mainWindowAdmin = new MainWindowAdmin() 
+                {
+                    DataContext = userModel
+                };
+
+                mainWindowAdmin.Show(); 
+            }
         }
 
 
@@ -145,15 +154,23 @@ namespace ControlEscolar.ViewModel
                 Name = userInfo.Nombre,
                 Edad = userInfo.Edad,
                 CURP = userInfo.CURP
-
             };
 
-            var mainWindowMaestro = new MainWindowMaestro
+            var mainWindowMaestro = System.Windows.Application.Current.Windows.OfType<MainWindowMaestro>().FirstOrDefault();
+
+            if (mainWindowMaestro != null)
             {
-                DataContext = userModel
-            };
+                mainWindowMaestro.Show(); // ✅ Recupera la ventana existente sin crear una nueva
+            }
+            else
+            {
+                mainWindowMaestro = new MainWindowMaestro // 🔥 Se asigna correctamente la nueva instancia
+                {
+                    DataContext = userModel
+                };
 
-            mainWindowMaestro.Show();
+                mainWindowMaestro.Show(); // ✅ Ahora sí existe una instancia válida antes de llamar a Show()
+            }
         }
         private void OpenMainWindow()
         {
@@ -165,13 +182,24 @@ namespace ControlEscolar.ViewModel
                 Edad = userInfo.Edad,
                 CURP = userInfo.CURP
             };
+            var mainWindow = System.Windows.Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
 
-            var mainWindow = new MainWindow
+            if (mainWindow != null)
             {
-                DataContext = userModel
-            };
+                mainWindow.Show(); // ✅ Muestra la instancia existente
+            }
+            else
+            {
 
-            mainWindow.Show();
+                mainWindow = new MainWindow()
+                {
+                    DataContext = userModel
+                }; ; // ❌ Solo crea una nueva si no existe
+                mainWindow.Show();
+            }
+
+
+            
         }
 
         private string ConvertToUnsecureString(SecureString secureString)

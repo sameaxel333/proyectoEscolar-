@@ -25,5 +25,7 @@ namespace ControlEscolar.Model
         public DateTime FechaNacimiento { get; set; }
 
         public int Numero_Empleado { get; set; }
+        public int AdminId { get; set; }
+
     }
 }

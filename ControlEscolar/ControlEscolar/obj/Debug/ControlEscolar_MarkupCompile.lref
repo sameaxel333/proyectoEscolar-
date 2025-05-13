@@ -1,27 +1,27 @@
 ﻿
 
 FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\CustomControls\BindablePasswordBox.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MainWindow.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\AdminRegister.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MainWindowView\MainWindow.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MainWindowView\MainWindowAdmin.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MainWindowView\MainWindowMaestro.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\SignUpView\AdminRegister.xaml;;
 FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\CreacMaterias.xaml;;
 FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\PaymentView.xaml;;
 FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\RegistrationView.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\StudentRegister.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\TeacherRegister.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\ContactViewMain.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\ContactView.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\Institucion.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\LoginView.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\PlanEstudiosView.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\UbicacionView.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MainWindowAdmin.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MainWindowMaestro.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\ContactViewMainAdmin.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\ContactViewMainMaestro.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\InstitucionMainMaestro.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\PlanEstudiosViewMainAdmin.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\PlanEstudiosViewMainMaestro.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\UbicacionViewMainAdmin.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\UbicacionViewMainMaestro.xaml;;
-FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\InstitucionMainAdmin.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\SignUpView\StudentRegister.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\SignUpView\TeacherRegister.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\StudentView\ContactViewMain.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\LoginView\ContactViewLogin.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\AdminView\ContactViewMainAdmin.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\TeacherView\ContactViewMainMaestro.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\StudentView\Institucion.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\AdminView\InstitucionMainAdmin.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\TeacherView\InstitucionMainMaestro.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\View\LoginView\LoginView.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\StudentView\PlanEstudiosView.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\AdminView\PlanEstudiosViewMainAdmin.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\TeacherView\PlanEstudiosViewMainMaestro.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\StudentView\UbicacionView.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\AdminView\UbicacionViewMainAdmin.xaml;;
+FC:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\MoreWindows\TeacherView\UbicacionViewMainMaestro.xaml;;
 

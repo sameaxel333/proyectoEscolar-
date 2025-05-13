@@ -56,14 +56,15 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Helpers\RelayCommand .cs" />
-    <Compile Include="MainWindowAdmin.xaml.cs">
+    <Compile Include="MainWindowView\MainWindowAdmin.xaml.cs">
       <DependentUpon>MainWindowAdmin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindowMaestro.xaml.cs">
+    <Compile Include="MainWindowView\MainWindowMaestro.xaml.cs">
       <DependentUpon>MainWindowMaestro.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\Estudiante.cs" />
-    <Compile Include="MoreWindows\AdminRegister.xaml.cs">
+    <Compile Include="ViewModel\AdminRegisterViewModel.cs" />
+    <Compile Include="View\SignUpView\AdminRegister.xaml.cs">
       <DependentUpon>AdminRegister.xaml</DependentUpon>
     </Compile>
     <Compile Include="MoreWindows\CreacMaterias.xaml.cs">
@@ -75,10 +76,10 @@
     <Compile Include="MoreWindows\RegistrationView.xaml.cs">
       <DependentUpon>RegistrationView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MoreWindows\StudentRegister.xaml.cs">
+    <Compile Include="View\SignUpView\StudentRegister.xaml.cs">
       <DependentUpon>StudentRegister.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MoreWindows\TeacherRegister.xaml.cs">
+    <Compile Include="View\SignUpView\TeacherRegister.xaml.cs">
       <DependentUpon>TeacherRegister.xaml</DependentUpon>
     </Compile>
     <Compile Include="Repositories\RepositoryBase.cs" />
@@ -88,56 +89,56 @@
     <Compile Include="ViewModel\TeacherRegisterViewModel.cs" />
     <Compile Include="ViewModel\ViewModelBase.cs" />
     <Compile Include="ViewModel\ViewModelCommand.cs" />
-    <Compile Include="View\ContactViewMain.xaml.cs">
+    <Compile Include="MoreWindows\StudentView\ContactViewMain.xaml.cs">
       <DependentUpon>ContactViewMain.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ContactView.xaml.cs">
-      <DependentUpon>ContactView.xaml</DependentUpon>
+    <Compile Include="View\LoginView\ContactViewLogin.xaml.cs">
+      <DependentUpon>ContactViewLogin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ContactViewMainAdmin.xaml.cs">
+    <Compile Include="MoreWindows\AdminView\ContactViewMainAdmin.xaml.cs">
       <DependentUpon>ContactViewMainAdmin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\ContactViewMainMaestro.xaml.cs">
+    <Compile Include="MoreWindows\TeacherView\ContactViewMainMaestro.xaml.cs">
       <DependentUpon>ContactViewMainMaestro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\Institucion.xaml.cs">
+    <Compile Include="MoreWindows\StudentView\Institucion.xaml.cs">
       <DependentUpon>Institucion.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\InstitucionMainAdmin.xaml.cs">
+    <Compile Include="MoreWindows\AdminView\InstitucionMainAdmin.xaml.cs">
       <DependentUpon>InstitucionMainAdmin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\InstitucionMainMaestro.xaml.cs">
+    <Compile Include="MoreWindows\TeacherView\InstitucionMainMaestro.xaml.cs">
       <DependentUpon>InstitucionMainMaestro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\LoginView.xaml.cs">
+    <Compile Include="View\LoginView\LoginView.xaml.cs">
       <DependentUpon>LoginView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\PlanEstudiosView.xaml.cs">
+    <Compile Include="MoreWindows\StudentView\PlanEstudiosView.xaml.cs">
       <DependentUpon>PlanEstudiosView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\PlanEstudiosViewMainAdmin.xaml.cs">
+    <Compile Include="MoreWindows\AdminView\PlanEstudiosViewMainAdmin.xaml.cs">
       <DependentUpon>PlanEstudiosViewMainAdmin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\PlanEstudiosViewMainMaestro.xaml.cs">
+    <Compile Include="MoreWindows\TeacherView\PlanEstudiosViewMainMaestro.xaml.cs">
       <DependentUpon>PlanEstudiosViewMainMaestro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\UbicacionView.xaml.cs">
+    <Compile Include="MoreWindows\StudentView\UbicacionView.xaml.cs">
       <DependentUpon>UbicacionView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\UbicacionViewMainAdmin.xaml.cs">
+    <Compile Include="MoreWindows\AdminView\UbicacionViewMainAdmin.xaml.cs">
       <DependentUpon>UbicacionViewMainAdmin.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\UbicacionViewMainMaestro.xaml.cs">
+    <Compile Include="MoreWindows\TeacherView\UbicacionViewMainMaestro.xaml.cs">
       <DependentUpon>UbicacionViewMainMaestro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="View\UserRoleSelection.xaml.cs">
+    <Compile Include="View\LoginView\UserRoleSelection.xaml.cs">
       <DependentUpon>UserRoleSelection.xaml</DependentUpon>
     </Compile>
     <Page Include="CustomControls\BindablePasswordBox.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MainWindow.xaml">
+    <Page Include="MainWindowView\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -148,19 +149,19 @@
     <Compile Include="CustomControls\BindablePasswordBox.xaml.cs">
       <DependentUpon>BindablePasswordBox.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
+    <Compile Include="MainWindowView\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MainWindowAdmin.xaml">
+    <Page Include="MainWindowView\MainWindowAdmin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MainWindowMaestro.xaml">
+    <Page Include="MainWindowView\MainWindowMaestro.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="MoreWindows\AdminRegister.xaml">
+    <Page Include="View\SignUpView\AdminRegister.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -176,71 +177,71 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MoreWindows\StudentRegister.xaml">
+    <Page Include="View\SignUpView\StudentRegister.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MoreWindows\TeacherRegister.xaml">
+    <Page Include="View\SignUpView\TeacherRegister.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\ContactViewMain.xaml">
+    <Page Include="MoreWindows\StudentView\ContactViewMain.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\ContactView.xaml">
+    <Page Include="View\LoginView\ContactViewLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\ContactViewMainAdmin.xaml">
+    <Page Include="MoreWindows\AdminView\ContactViewMainAdmin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\ContactViewMainMaestro.xaml">
+    <Page Include="MoreWindows\TeacherView\ContactViewMainMaestro.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\Institucion.xaml">
+    <Page Include="MoreWindows\StudentView\Institucion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\InstitucionMainAdmin.xaml">
+    <Page Include="MoreWindows\AdminView\InstitucionMainAdmin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\InstitucionMainMaestro.xaml">
+    <Page Include="MoreWindows\TeacherView\InstitucionMainMaestro.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\LoginView.xaml">
+    <Page Include="View\LoginView\LoginView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\PlanEstudiosView.xaml">
+    <Page Include="MoreWindows\StudentView\PlanEstudiosView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="View\PlanEstudiosViewMainAdmin.xaml">
+    <Page Include="MoreWindows\AdminView\PlanEstudiosViewMainAdmin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\PlanEstudiosViewMainMaestro.xaml">
+    <Page Include="MoreWindows\TeacherView\PlanEstudiosViewMainMaestro.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\UbicacionView.xaml">
+    <Page Include="MoreWindows\StudentView\UbicacionView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\UbicacionViewMainAdmin.xaml">
+    <Page Include="MoreWindows\AdminView\UbicacionViewMainAdmin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\UbicacionViewMainMaestro.xaml">
+    <Page Include="MoreWindows\TeacherView\UbicacionViewMainMaestro.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="View\UserRoleSelection.xaml">
+    <Page Include="View\LoginView\UserRoleSelection.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

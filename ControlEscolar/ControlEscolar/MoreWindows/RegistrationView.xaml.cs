@@ -30,7 +30,7 @@ namespace ControlEscolar.MoreWindows
 
         private void btnCerrar_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            Application.Current.Shutdown();
         }
 
         private void BindablePasswordBox_Loaded(object sender, RoutedEventArgs e)
@@ -44,8 +44,17 @@ namespace ControlEscolar.MoreWindows
         }
         private void Inicio_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow ventanaPrincipal = new MainWindow();
-            ventanaPrincipal.Show();
+            var mainWindow = System.Windows.Application.Current.Windows.OfType<MainWindow>().FirstOrDefault();
+            if (mainWindow != null)
+            {
+                mainWindow.Show(); // ✅ Muestra la instancia existente
+            }
+            else
+            {
+                mainWindow = new MainWindow(); // ❌ Solo crea una nueva si no existe
+                mainWindow.Show();
+            }
+
             this.Close();
         }
         private void Pagos_Click(object sender, RoutedEventArgs e)

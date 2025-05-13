@@ -18,6 +18,8 @@ namespace ControlEscolar.Model
         UserModel GetUserInfo(string curp);
         bool InsertUser(UserModel user, string plainPassword);
         bool InsertTeacher(UserModel user, string plainPassword);
+
+        bool InsertAdmin(UserModel user, string plainPassword);
         UserModel GetUserMaestroInfo(string curp);
 
         UserModel GetUserAdminInfo(string curp);

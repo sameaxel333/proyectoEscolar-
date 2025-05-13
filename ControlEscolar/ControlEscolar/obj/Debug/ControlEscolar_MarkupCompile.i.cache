@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\App.xaml
-25-1950791543
+251590853952
 
-41604883403
+42-1299796820
 13-1310406943
-CustomControls\BindablePasswordBox.xaml;MainWindow.xaml;MainWindowAdmin.xaml;MainWindowMaestro.xaml;MoreWindows\AdminRegister.xaml;MoreWindows\CreacMaterias.xaml;MoreWindows\PaymentView.xaml;MoreWindows\RegistrationView.xaml;MoreWindows\StudentRegister.xaml;MoreWindows\TeacherRegister.xaml;View\ContactViewMain.xaml;View\ContactView.xaml;View\ContactViewMainAdmin.xaml;View\ContactViewMainMaestro.xaml;View\Institucion.xaml;View\InstitucionMainAdmin.xaml;View\InstitucionMainMaestro.xaml;View\LoginView.xaml;View\PlanEstudiosView.xaml;View\PlanEstudiosViewMainAdmin.xaml;View\PlanEstudiosViewMainMaestro.xaml;View\UbicacionView.xaml;View\UbicacionViewMainAdmin.xaml;View\UbicacionViewMainMaestro.xaml;View\UserRoleSelection.xaml;
+CustomControls\BindablePasswordBox.xaml;MainWindowView\MainWindow.xaml;MainWindowView\MainWindowAdmin.xaml;MainWindowView\MainWindowMaestro.xaml;View\SignUpView\AdminRegister.xaml;MoreWindows\CreacMaterias.xaml;MoreWindows\PaymentView.xaml;MoreWindows\RegistrationView.xaml;View\SignUpView\StudentRegister.xaml;View\SignUpView\TeacherRegister.xaml;MoreWindows\StudentView\ContactViewMain.xaml;View\LoginView\ContactViewLogin.xaml;MoreWindows\AdminView\ContactViewMainAdmin.xaml;MoreWindows\TeacherView\ContactViewMainMaestro.xaml;MoreWindows\StudentView\Institucion.xaml;MoreWindows\AdminView\InstitucionMainAdmin.xaml;MoreWindows\TeacherView\InstitucionMainMaestro.xaml;View\LoginView\LoginView.xaml;MoreWindows\StudentView\PlanEstudiosView.xaml;MoreWindows\AdminView\PlanEstudiosViewMainAdmin.xaml;MoreWindows\TeacherView\PlanEstudiosViewMainMaestro.xaml;MoreWindows\StudentView\UbicacionView.xaml;MoreWindows\AdminView\UbicacionViewMainAdmin.xaml;MoreWindows\TeacherView\UbicacionViewMainMaestro.xaml;View\LoginView\UserRoleSelection.xaml;
 
 True
 
