@@ -23,6 +23,13 @@ namespace ControlEscolar.Repositories
         {
             return new SqlConnection(_connectionString);
         }
+        public void GuardarCurso()
+        {
+            using (var connection = GetConnection()) 
+            {
+                // Código para insertar en la base de datos
+            }
+        }
 
     }
 }

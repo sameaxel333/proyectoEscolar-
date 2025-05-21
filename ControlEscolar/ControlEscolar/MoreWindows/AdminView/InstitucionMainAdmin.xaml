@@ -27,7 +27,7 @@
     </Window.Visibility>
 
     <Border CornerRadius="12">
-        <Border CornerRadius="10" BorderThickness="2" Opacity="0.98" Margin="0,14,0,-14">
+        <Border CornerRadius="10" BorderThickness="2" Opacity="0.95" Margin="0,14,0,-14">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#2e2e2e" Offset="0"/>

@@ -9,7 +9,8 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True"
+        Icon="/Resources/LogoAplicacionSomosUAZmini.ico">
     <Window.Resources>
         <Style TargetType="Hyperlink">
             <Setter Property="Foreground" Value="LightCyan"/>
@@ -23,7 +24,7 @@
     </Window.Resources>
 
     <Border CornerRadius="12">
-        <Border CornerRadius="10" BorderThickness="2" Opacity="0.98">
+        <Border CornerRadius="10" BorderThickness="2" Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#bcbcbc" Offset="0"/>
@@ -119,38 +120,9 @@
                            Height="61"/>
                 </StackPanel>
                 <StackPanel
-Orientation="Vertical"
-Margin="25,250,574,-351">
-                    <Button x:Name="GenerarTXT"
- Command="{Binding LoginCommand}"
- BorderThickness="0"
- Content="Generar Lista"
- Foreground="DarkGray"
- FontSize="14"
- FontFamily="Montserrat"
- Cursor="Hand"
- Click="GenerarTXT_Click"
-    Margin="0,60,0,0" Height="56" Width="158">
-                        <Button.Style>
-                            <Style TargetType="{x:Type Button}">
-                                <Setter Property="Background" Value="#003757"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#28AEED"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                        <Button.Template>
-                            <ControlTemplate TargetType="{x:Type Button}">
-                                <Border Width="150" Height="40" CornerRadius="20"
-         Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center"
-                           HorizontalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Button.Template>
-                    </Button>
+                    Orientation="Vertical"
+                    Margin="25,250,574,-351">
+
 
                     <TextBlock Text="{Binding ErrorMessage}"
                         Foreground="Red"
@@ -170,18 +142,21 @@ Margin="25,250,574,-351">
                                Height="21" 
                                Width="371" 
                                RenderTransformOrigin="0.5,0.495">
-                        <Hyperlink Click="Asistencia_Click">
+                        <Hyperlink Click="Horarios_Click">
                             <Run Text="Horarios"/>
                         </Hyperlink>
                         <Run Text="    "/>
-                        <Hyperlink Click="Asistencia_Click">
+                        <Hyperlink Click="Cursos_Click">
                             <Run Text="Cursos"/>
                         </Hyperlink>
                         <Run Text="    "/>
                         <Hyperlink Click="Asistencia_Click">
                             <Run Text="Asistencia"/>
                         </Hyperlink>
-                        
+                        <Run Text="    "/>
+                        <Hyperlink Click="CerrarSesion_Click">
+                            <Run Text="Cerrar Sesion"/>
+                        </Hyperlink>
                     </TextBlock>
                 </StackPanel>
 
@@ -254,6 +229,36 @@ Margin="25,250,574,-351">
                         </TextBlock>
                     </TextBlock>
                 </StackPanel>
+                <Button x:Name="GenerarTXT"
+         Command="{Binding LoginCommand}"
+         BorderThickness="0"
+         Content="Generar Lista"
+         Foreground="DarkGray"
+         FontSize="14"
+         FontFamily="Montserrat"
+         Cursor="Hand"
+         Click="GenerarTXT_Click"
+            Margin="44,298,606,-324" Height="56">
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="#003757"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="#28AEED"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border Width="150" Height="40" CornerRadius="20"
+                    Background="{TemplateBinding Background}">
+                                <ContentPresenter VerticalAlignment="Center"
+                                 HorizontalAlignment="Center"/>
+                            </Border>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
             </Grid>
         </Border>
     </Border>

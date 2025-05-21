@@ -107,6 +107,12 @@ namespace ControlEscolar.Repositories
                 connection.Open();
                 command.Connection = connection;
 
+                if (!int.TryParse(user.Matricula, out int matriculaValida))
+                {
+                    System.Windows.MessageBox.Show("La matrícula solo puede contener números.");
+                    return false;
+                }
+
                 command.CommandText = @"
             INSERT INTO Estudiante
               (Matricula, CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
@@ -121,7 +127,7 @@ namespace ControlEscolar.Repositories
                 command.Parameters.Add("@edad", SqlDbType.Int).Value = user.Edad;
                 command.Parameters.Add("@fechaNac", SqlDbType.Date).Value = user.FechaNacimiento;
 
-                // 🔥 SOLUCIÓN: Aplica SHA256 en C# antes de enviar la contraseña a SQL Server
+                // Aplica SHA256 en C# antes de enviar la contraseña a SQL Server
                 byte[] hashedPassword = System.Security.Cryptography.SHA256.Create().ComputeHash(System.Text.Encoding.UTF8.GetBytes(plainPassword));
                 command.Parameters.Add("@contraseña", SqlDbType.VarBinary, 64).Value = hashedPassword;
 
@@ -150,13 +156,13 @@ namespace ControlEscolar.Repositories
 
                 command.CommandText = @"
             INSERT INTO Maestro
-              (Numero_Empleado, CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
+              (CURP, Nombre, Edad, Fecha_Nacimiento, Contraseña)
             VALUES 
-              (@numeroEmpleado, @curp, @nombre, @edad, @fechaNac, @contraseña)
+              (@curp, @nombre, @edad, @fechaNac, @contraseña)
         ";
 
                 // Asignación de parámetros correcta
-                command.Parameters.Add("@numeroEmpleado", SqlDbType.Int).Value = user.Numero_Empleado;
+                //command.Parameters.Add("@numeroEmpleado", SqlDbType.Int).Value = user.Numero_Empleado;
                 command.Parameters.Add("@curp", SqlDbType.VarChar, 18).Value = user.CURP;
                 command.Parameters.Add("@nombre", SqlDbType.VarChar, 100).Value = user.Nombre;
                 command.Parameters.Add("@edad", SqlDbType.Int).Value = user.Edad;
@@ -205,7 +211,7 @@ namespace ControlEscolar.Repositories
 
                 // Depuración para confirmar valores antes del INSERT
                 System.Windows.MessageBox.Show($"CURP antes del insert: {admin.CURP}");
-                System.Windows.MessageBox.Show($"Contraseña en bytes: {BitConverter.ToString(hashedPassword)}");
+                System.Windows.MessageBox.Show($"Contraseña en bytes: {BitConverter.ToString(hashedPassword)}");            
 
                 int rowsAffected = command.ExecuteNonQuery();
                 return rowsAffected > 0;
@@ -222,7 +228,7 @@ namespace ControlEscolar.Repositories
                 connection.Open();
                 command.Connection = connection;
                 command.CommandText = @"
-            SELECT Nombre, Curp, Edad
+            SELECT Nombre, CURP, Edad
             FROM Maestro 
             WHERE CURP = @CURP";
 
@@ -235,7 +241,7 @@ namespace ControlEscolar.Repositories
                         return new UserModel()
                         {
                             Nombre = reader["Nombre"].ToString(),
-                            Username = reader["Curp"].ToString(),
+                            Username = reader["CURP"].ToString(),
                             Edad = Convert.ToInt32(reader["Edad"])
                         };
                     }
@@ -252,7 +258,7 @@ namespace ControlEscolar.Repositories
                 connection.Open();
                 command.Connection = connection;
                 command.CommandText = @"
-            SELECT Nombre, Curp, Edad
+            SELECT Nombre, CURP, Edad
             FROM Administrador 
             WHERE CURP = @CURP";
 
@@ -265,7 +271,7 @@ namespace ControlEscolar.Repositories
                         return new UserModel()
                         {
                             Nombre = reader["Nombre"].ToString(),
-                            Username = reader["Curp"].ToString(),
+                            Username = reader["CURP"].ToString(),
                             Edad = Convert.ToInt32(reader["Edad"])
                         };
                     }

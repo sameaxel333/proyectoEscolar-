@@ -9,7 +9,8 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True"
+        Icon="/Resources/LogoAplicacionSomosUAZmini.ico">
     <Window.Resources>
         <Style TargetType="Hyperlink">
             <Setter Property="Foreground" Value="LightCyan"/>
@@ -23,7 +24,7 @@
     </Window.Resources>
 
     <Border CornerRadius="12">
-        <Border CornerRadius="10" BorderThickness="2" Opacity="0.98">
+        <Border CornerRadius="10" BorderThickness="2" Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#bcbcbc" Offset="0"/>

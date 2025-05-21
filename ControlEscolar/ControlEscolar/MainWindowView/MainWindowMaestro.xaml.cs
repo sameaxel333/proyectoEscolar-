@@ -14,6 +14,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ControlEscolar.MainWindowView.TeacherView;
 using ControlEscolar.Model;
 using ControlEscolar.MoreWindows;
 using ControlEscolar.Repositories;
@@ -41,27 +42,31 @@ namespace ControlEscolar
             this.WindowState = WindowState.Minimized;
         }
 
-        private void Horario_Click(object sender, RoutedEventArgs e)
+        private void Horarios_Click(object sender, RoutedEventArgs e)
         {
-            ContactViewMain ventana = new ContactViewMain();
+            SchedulesTeacherView ventana = new SchedulesTeacherView();
             ventana.Show();
             this.Hide();
         }
 
         private void Cursos_Click(object sender, RoutedEventArgs e)
         {
-            ContactViewMain ventana = new ContactViewMain();
+            CourseTeacherRegistration ventana = new CourseTeacherRegistration();
             ventana.Show();
             this.Hide();
         }
         private void Asistencia_Click(object sender, RoutedEventArgs e)
         {
-            ContactViewMain ventana = new ContactViewMain();
+            AttendanceListView ventana = new AttendanceListView();
             ventana.Show();
-            this.Close();
+            this.Hide();
         }
 
-        
+        private void CerrarSesion_Click(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
+            Application.Current.Shutdown();
+        }
 
         private void ContactClick(object sender, RoutedEventArgs e)
         {

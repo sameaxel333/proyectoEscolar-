@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,7 +14,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ControlEscolar.MainWindowView.StudentView;
 using ControlEscolar.MoreWindows;
+using ControlEscolar.Repositories;
 using ControlEscolar.View;
 
 namespace ControlEscolar
@@ -38,7 +42,7 @@ namespace ControlEscolar
         }
         private void Inscripciones_Click(object sender, RoutedEventArgs e)
         {
-            RegistrationView ventana = new RegistrationView();
+            CourseRegistrationView ventana = new CourseRegistrationView();
             ventana.Show();
             this.Hide();
         }
@@ -49,7 +53,7 @@ namespace ControlEscolar
             this.Hide();
         }
         private void Materias_Click(object sender, RoutedEventArgs e) {
-            CreacMaterias ventana = new CreacMaterias();
+            SchedulesView ventana = new SchedulesView();
             ventana.Show();
             this.Hide();
         }
@@ -83,6 +87,42 @@ namespace ControlEscolar
         {
             System.Diagnostics.Process.Start(Application.ResourceAssembly.Location);
             Application.Current.Shutdown();
+        }
+        private void GenerarMateriasTXT_Click(object sender, RoutedEventArgs e)
+        {
+            var repo = new MateriaRepository(); // Usamos el repositorio de materias
+            var materias = repo.ObtenerMaterias(); // Obtener la lista
+
+            string rutaArchivo = "ListaMaterias.txt";
+
+            try
+            {
+                using (StreamWriter writer = new StreamWriter(rutaArchivo))
+                {
+                    writer.WriteLine("LISTA DE MATERIAS");
+                    writer.WriteLine("=============================================");
+                    writer.WriteLine("Nombre de la Materia");
+                    writer.WriteLine("---------------------------------------------");
+
+                    foreach (var mat in materias)
+                    {
+                        writer.WriteLine(mat.NombreMateria);
+                    }
+                }
+
+                MessageBox.Show("Archivo TXT generado exitosamente.");
+
+                // Abre el archivo automáticamente
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = rutaArchivo,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al generar archivo: " + ex.Message);
+            }
         }
     }
 }

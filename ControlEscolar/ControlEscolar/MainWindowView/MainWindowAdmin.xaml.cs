@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ControlEscolar.MainWindowView.AdminView;
 using ControlEscolar.MoreWindows;
 using ControlEscolar.View;
 
@@ -37,21 +38,21 @@ namespace ControlEscolar
 
         private void ValidarMaestro_Click(object sender, RoutedEventArgs e)
         {
-            ContactViewMain ventana = new ContactViewMain(); // <--- Nombre de la ventana Validar Maestro
+            ValidateTeacherView ventana = new ValidateTeacherView(); // <--- Nombre de la ventana Validar Maestro
             ventana.Show();
             this.Hide();
         }
 
         private void GestionCurso_Click(object sender, RoutedEventArgs e)
         {
-            ContactViewMain ventana = new ContactViewMain(); // <--- Nombre de la ventana Validar Alumno
+            CourseManagementView ventana = new CourseManagementView(); // <--- Nombre de la ventana Validar Alumno
             ventana.Show();
             this.Hide();
         }
 
         private void ValidarAlumno_Click(object sender, RoutedEventArgs e)
         {
-            ContactViewMain ventana = new ContactViewMain(); // <--- Nombre de la ventana Validar Alumno
+            ValidateStudentView ventana = new ValidateStudentView(); // <--- Nombre de la ventana Validar Alumno
             ventana.Show();
             this.Hide();
         }

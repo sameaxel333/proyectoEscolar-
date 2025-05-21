@@ -55,26 +55,60 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\InscripcionModel.cs" />
+    <Compile Include="Model\MaestroModel.cs" />
+    <Compile Include="Model\MateriaModel.cs" />
+    <Compile Include="Repositories\InscriptionRepository.cs" />
+    <Compile Include="Repositories\MateriaRepository.cs" />
+    <Compile Include="ViewModel\AdminRegisterViewModel.cs" />
+    <Compile Include="Helpers\BaseWindow.xaml.cs">
+      <DependentUpon>BaseWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Helpers\RelayCommand .cs" />
+    <Compile Include="ViewModel\CourseViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="MainWindowView\AdminView\CourseManagementView.xaml.cs">
+      <DependentUpon>CourseManagementView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowView\AdminView\ValidateStudentView.xaml.cs">
+      <DependentUpon>ValidateStudentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowView\AdminView\ValidateTeacherView.xaml.cs">
+      <DependentUpon>ValidateTeacherView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainWindowView\MainWindowAdmin.xaml.cs">
       <DependentUpon>MainWindowAdmin.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindowView\MainWindowMaestro.xaml.cs">
       <DependentUpon>MainWindowMaestro.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MainWindowView\StudentView\SchedulesView.xaml.cs">
+      <DependentUpon>SchedulesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowView\TeacherView\AttendanceListView.xaml.cs">
+      <DependentUpon>AttendanceListView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowView\TeacherView\CourseTeacherRegistration.xaml.cs">
+      <DependentUpon>CourseTeacherRegistration.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainWindowView\TeacherView\SchedulesTeacherView.xaml.cs">
+      <DependentUpon>SchedulesTeacherView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CourseModel.cs" />
     <Compile Include="Model\Estudiante.cs" />
-    <Compile Include="ViewModel\AdminRegisterViewModel.cs" />
+    <Compile Include="Repositories\CourseRepository.cs" />
+    <Compile Include="ViewModel\StudentRegisterViewModel.cs" />
+    <Compile Include="ViewModel\TeacherRegisterViewModel.cs" />
+    <Compile Include="ViewModel\ViewModelBase.cs" />
+    <Compile Include="ViewModel\ViewModelCommand.cs" />
     <Compile Include="View\SignUpView\AdminRegister.xaml.cs">
       <DependentUpon>AdminRegister.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MoreWindows\CreacMaterias.xaml.cs">
-      <DependentUpon>CreacMaterias.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MoreWindows\PaymentView.xaml.cs">
+    <Compile Include="MainWindowView\StudentView\PaymentView.xaml.cs">
       <DependentUpon>PaymentView.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MoreWindows\RegistrationView.xaml.cs">
-      <DependentUpon>RegistrationView.xaml</DependentUpon>
+    <Compile Include="MainWindowView\StudentView\CourseRegistrationView.xaml.cs">
+      <DependentUpon>CourseRegistrationView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\SignUpView\StudentRegister.xaml.cs">
       <DependentUpon>StudentRegister.xaml</DependentUpon>
@@ -84,11 +118,6 @@
     </Compile>
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
-    <Compile Include="ViewModel\LoginViewModel.cs" />
-    <Compile Include="ViewModel\StudentRegisterViewModel.cs" />
-    <Compile Include="ViewModel\TeacherRegisterViewModel.cs" />
-    <Compile Include="ViewModel\ViewModelBase.cs" />
-    <Compile Include="ViewModel\ViewModelCommand.cs" />
     <Compile Include="MoreWindows\StudentView\ContactViewMain.xaml.cs">
       <DependentUpon>ContactViewMain.xaml</DependentUpon>
     </Compile>
@@ -138,6 +167,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Helpers\BaseWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindowView\AdminView\CourseManagementView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindowView\AdminView\ValidateStudentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindowView\AdminView\ValidateTeacherView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindowView\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -161,19 +206,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="MainWindowView\StudentView\SchedulesView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindowView\TeacherView\AttendanceListView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindowView\TeacherView\CourseTeacherRegistration.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindowView\TeacherView\SchedulesTeacherView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\SignUpView\AdminRegister.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MoreWindows\CreacMaterias.xaml">
+    <Page Include="MainWindowView\StudentView\PaymentView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MoreWindows\PaymentView.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MoreWindows\RegistrationView.xaml">
+    <Page Include="MainWindowView\StudentView\CourseRegistrationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -319,5 +376,6 @@
     <Resource Include="Images\plan-de-estudios.png" />
     <Resource Include="Images\UbicacionIngenieriaSoftwareMaps.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

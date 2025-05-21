@@ -11,7 +11,8 @@
          WindowStyle="None"
          WindowStartupLocation="CenterScreen"
          Background="Transparent"
-         AllowsTransparency="True">
+         AllowsTransparency="True"
+        Icon="/Resources/LogoAplicacionSomosUAZmini.ico">
     <Window.DataContext>
         <ViewModel:StudentRegisterViewModel/>
     </Window.DataContext>
@@ -36,7 +37,7 @@
 
     <Border CornerRadius="12">
 
-        <Border CornerRadius="10" BorderThickness="2" Opacity="0.98" Margin="0,1,0,-1" RenderTransformOrigin="0.981,0.047">
+        <Border CornerRadius="10" BorderThickness="2" Opacity="0.95" Margin="0,1,0,-1" RenderTransformOrigin="0.981,0.047">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#c4c4c4" Offset="0"/>
@@ -194,35 +195,7 @@
                 </StackPanel>
                 <StackPanel
                 Orientation="Vertical"
-                Margin="244,120,412,-152">
-                    <TextBlock Text="Edad"
-                    Foreground="LightGray"
-                    FontWeight="Medium"
-                    FontFamily="Montserrat"
-                    FontSize="15"
-                    Height="21"/>
-                    <TextBox x:Name="UserAge"
-                    Text="{Binding Edad, UpdateSourceTrigger=PropertyChanged}"
-                    FontFamily="Montserrat"
-                    FontSize="13"
-                    FontWeight="Medium"
-                    Foreground="White"
-                    CaretBrush="LightGray"
-                    BorderBrush="DarkGray"
-                    BorderThickness="0,0,0,2"
-                    Height="24"
-                    VerticalContentAlignment="Center"
-                    HorizontalAlignment="Left"
-                    Margin="0,5,0,0"
-                    Padding="20,0,0,0" Width="96" >
-                        <TextBox.Background>
-                            <ImageBrush 
-                            Stretch="None"
-                            AlignmentX="Left"/>
-                        </TextBox.Background>
-                    </TextBox>
-
-                </StackPanel>
+                Margin="244,120,412,-152"/>
                 <StackPanel
                 Orientation="Vertical"
                 Margin="244,187,418,-215">
@@ -388,7 +361,7 @@
 
                 <StackPanel
                     Orientation="Vertical"
-                    Margin="389,187,267,-219">
+                    Margin="238,120,418,-152">
                     <TextBlock Text="CURP"
                         Foreground="LightGray"
                         FontWeight="Medium"

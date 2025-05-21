@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Trabajos\Programacion Visual puntoNet\proyectoEsc\proyectoEscolar-\ControlEscolar\ControlEscolar\App.xaml
-251590853952
+32422194474
 
-41782291798
+56-1290203951
 13-1310406943
-CustomControls\BindablePasswordBox.xaml;MainWindowView\MainWindow.xaml;MainWindowView\MainWindowAdmin.xaml;MainWindowView\MainWindowMaestro.xaml;View\SignUpView\AdminRegister.xaml;MoreWindows\CreacMaterias.xaml;MoreWindows\PaymentView.xaml;MoreWindows\RegistrationView.xaml;View\SignUpView\StudentRegister.xaml;View\SignUpView\TeacherRegister.xaml;MoreWindows\StudentView\ContactViewMain.xaml;View\LoginView\ContactViewLogin.xaml;MoreWindows\AdminView\ContactViewMainAdmin.xaml;MoreWindows\TeacherView\ContactViewMainMaestro.xaml;MoreWindows\StudentView\Institucion.xaml;MoreWindows\AdminView\InstitucionMainAdmin.xaml;MoreWindows\TeacherView\InstitucionMainMaestro.xaml;View\LoginView\LoginView.xaml;MoreWindows\StudentView\PlanEstudiosView.xaml;MoreWindows\AdminView\PlanEstudiosViewMainAdmin.xaml;MoreWindows\TeacherView\PlanEstudiosViewMainMaestro.xaml;MoreWindows\StudentView\UbicacionView.xaml;MoreWindows\AdminView\UbicacionViewMainAdmin.xaml;MoreWindows\TeacherView\UbicacionViewMainMaestro.xaml;View\LoginView\UserRoleSelection.xaml;
+CustomControls\BindablePasswordBox.xaml;Helpers\BaseWindow.xaml;MainWindowView\AdminView\CourseManagementView.xaml;MainWindowView\AdminView\ValidateStudentView.xaml;MainWindowView\AdminView\ValidateTeacherView.xaml;MainWindowView\MainWindow.xaml;MainWindowView\MainWindowAdmin.xaml;MainWindowView\MainWindowMaestro.xaml;MainWindowView\StudentView\SchedulesView.xaml;MainWindowView\TeacherView\AttendanceListView.xaml;MainWindowView\TeacherView\CourseTeacherRegistration.xaml;MainWindowView\TeacherView\SchedulesTeacherView.xaml;View\SignUpView\AdminRegister.xaml;MainWindowView\StudentView\PaymentView.xaml;MainWindowView\StudentView\CourseRegistrationView.xaml;View\SignUpView\StudentRegister.xaml;View\SignUpView\TeacherRegister.xaml;MoreWindows\StudentView\ContactViewMain.xaml;View\LoginView\ContactViewLogin.xaml;MoreWindows\AdminView\ContactViewMainAdmin.xaml;MoreWindows\TeacherView\ContactViewMainMaestro.xaml;MoreWindows\StudentView\Institucion.xaml;MoreWindows\AdminView\InstitucionMainAdmin.xaml;MoreWindows\TeacherView\InstitucionMainMaestro.xaml;View\LoginView\LoginView.xaml;MoreWindows\StudentView\PlanEstudiosView.xaml;MoreWindows\AdminView\PlanEstudiosViewMainAdmin.xaml;MoreWindows\TeacherView\PlanEstudiosViewMainMaestro.xaml;MoreWindows\StudentView\UbicacionView.xaml;MoreWindows\AdminView\UbicacionViewMainAdmin.xaml;MoreWindows\TeacherView\UbicacionViewMainMaestro.xaml;View\LoginView\UserRoleSelection.xaml;
 
 False
 

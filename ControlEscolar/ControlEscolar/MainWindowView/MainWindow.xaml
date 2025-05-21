@@ -9,7 +9,8 @@
         WindowStyle="None"
         WindowStartupLocation="CenterScreen"
         Background="Transparent"
-        AllowsTransparency="True">
+        AllowsTransparency="True"
+        Icon="/Resources/LogoAplicacionSomosUAZmini.ico">
     <Window.Resources>
         <Style TargetType="Hyperlink">
             <Setter Property="Foreground" Value="LightCyan"/>
@@ -23,7 +24,7 @@
     </Window.Resources>
 
     <Border CornerRadius="12">
-        <Border CornerRadius="10" BorderThickness="2" Opacity="0.98">
+        <Border CornerRadius="10" BorderThickness="2" Opacity="0.95">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
                     <GradientStop Color="#bcbcbc" Offset="0"/>
@@ -118,7 +119,48 @@ Margin="0,0,2,2" Grid.Column="2" Grid.ColumnSpan="2">
                            Width="217"
                            Height="61"/>
                 </StackPanel>
+                <StackPanel
+Orientation="Vertical"
+Margin="25,250,574,-351">
+                    <Button x:Name="ExportarMaterias"
+ Command="{Binding LoginCommand}"
+ BorderThickness="0"
+ Content="Exportar Materias"
+ Foreground="DarkGray"
+ FontSize="14"
+ FontFamily="Montserrat"
+ Cursor="Hand"
+ Click="GenerarMateriasTXT_Click"
+    Margin="0,60,0,0" Height="56" Width="158">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="#003757"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#28AEED"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Button.Style>
+                        <Button.Template>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Width="150" Height="40" CornerRadius="20"
+         Background="{TemplateBinding Background}">
+                                    <ContentPresenter VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Button.Template>
+                    </Button>
 
+                    <TextBlock Text="{Binding ErrorMessage}"
+                        Foreground="Red"
+                        FontSize="12"
+                        FontWeight="Medium"
+                        FontFamily="Montserrat"
+                        Margin="0 10 0 0"
+                        TextWrapping="Wrap"/>
+                </StackPanel>
                 <StackPanel Orientation="Vertical" Margin="370,39,38,-396">
                     <TextBlock Foreground="#ade2ff"
                                FontSize="16"
